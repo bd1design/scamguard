@@ -1,0 +1,4269 @@
+/*!
+ * 
+ * CUSTOM CSS STYLE FOR  CRYPTO LANDING PAGE
+ * 
+ */
+
+
+/* Google Fonts  */
+
+/* Google Fonts  Open Sans*/
+
+@import url('https://fonts.googleapis.com/css2?family=Italiana&family=Open+Sans:ital,wght@0,400;1,500&family=Orbitron:wght@400;500;600&family=Roboto:wght@100&family=Titillium+Web:wght@300;400;600;700;900&display=swap');
+
+ @import url('https://fonts.googleapis.com/css2?family=Italiana&family=Open+Sans:wght@400;500;600;700;800&family=Orbitron:wght@400;500;600&family=Roboto:wght@100&family=Titillium+Web:wght@300;400;600;700;900&display=swap');
+
+
+	 /* ---------- NAVBAR HEADER NAVIGATION ------------  */
+	
+	.navbar-toggler .navbar-toggler-icon {
+
+	display: block !important;
+	background:url(../img/menu.png) 0 0 no-repeat;
+	}
+
+	.navbar-toggler:focus {
+	outline: none !important;
+	box-shadow: none;
+	}
+
+	.main-navigation .logo-header{
+	display: block;
+	float: left;
+	width: 280px !important;height:60px;
+	background:url(../img/scam-gurad-logo-v1.png) 0 0 no-repeat;
+	margin-right: 0;
+	margin-top: 10px;
+	margin-left: 40px;
+
+	}
+
+	.main-navigation{
+	background-color: transparent;
+	display: block;
+	padding-left: 0;padding-right: 0;
+	padding-top: 0;
+
+	}
+
+	.main-navigation .nav-list .nav-link{
+	
+	font-weight:600;
+	color: #1E2022;
+	text-transform:uppercase;
+	font-size: 13px;
+	letter-spacing: 1px !important;
+	margin-right:20px;
+	margin-top: 15px;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	}
+
+	.nav-list .nav-item .btn-nav-book{
+	background-color: #F4B146;
+	padding-top: 13px;
+	padding-bottom:13px;
+	font-size: 11px;
+	color: #ffffff;
+	border-radius:2px;
+	padding-left: 10px;padding-right: 10px;
+	border-radius: 30px;
+	margin-top: 10px;
+	display: block;
+	float: left;
+	width: 220px;
+	position: relative;
+	}
+
+	.nav-list .nav-item .btn-nav-book span{
+	font-size:11px;
+	color: #ffffff;
+	
+	text-transform: capitalize;
+	float: left;
+	display: block;
+	text-align: center;
+	width: 100%;
+	}
+
+	.nav-list .nav-item .btn-nav-book p{
+	font-size:12px;
+	color: #ffffff;
+	
+	text-transform: capitalize;
+	float: left;
+	display: block;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	width: 100%;
+	text-transform: uppercase;
+	font-weight: 600;
+	}
+
+
+	.circle {
+		width: 12px;
+		height: 12px;
+		background-color: #fff;
+		border-radius: 50%;
+		position: absolute;
+		top: 32px;
+		left: 20px;
+	}
+	
+	.ringring {
+		border: 3px solid #fff;
+		-webkit-border-radius: 30px;
+		height: 25px;
+		width: 25px;
+		position: absolute;
+		left: 13px;
+		top: 26px;
+		-webkit-animation: pulsate 1s ease-out;
+		-webkit-animation-iteration-count: infinite;
+		opacity: 0.0;
+	}
+	@-webkit-keyframes pulsate {
+		0% {-webkit-transform: scale(0.1, 0.1); opacity: 0.0;}
+		50% {opacity: 1.0;}
+		100% {-webkit-transform: scale(1.2, 1.2); opacity: 0.0;}
+	}
+
+	.nav-list .nav-item .btn-nav-book .fa{
+	margin-left: 7px;
+	font-size: 16px;
+	vertical-align: 1px;
+	}
+
+	.nav-list .nav-item .gt-quote{
+	background-color: #4638b3;
+	/*background-image: -webkit-linear-gradient(0deg, #251c6e 0%, #362a91 52%, #4638b3 100%);*/
+	padding-top: 8px;
+	padding-bottom:8px;
+	font-size: 16px;
+	color: #ffffff;
+	border-radius:2px;
+	padding-left: 20px;padding-right: 20px;
+	margin-right: 25px;
+	}
+
+	.nav-list .nav-item .gt-quote:hover{
+	background-color: #4638b3;
+	color: #fff !important;
+	}
+
+
+
+	.main-navigation .nav-list .nav-link:hover{
+	cursor: pointer;
+	color: #F4B146;
+	}
+
+	.nav-list .nav-item .btn-nav-book:hover{
+	color: #fafafa !important;
+	background-color: #F4B146;
+	}
+
+	.nav-list .dropdown{
+	
+	font-weight:600;
+	color: #313433;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 13px;
+	margin-right:10px;
+	text-align: center;
+	position: relative;
+	margin-top: 0;
+
+	}
+
+	.nav-list .dropdown a{
+	color: #313433;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 13px;
+	text-align: center;
+	}
+	.nav-list .dropdown a:hover{
+	text-decoration: none;
+	color: #069455;
+	}
+
+	.nav-list .dropdown a .caret{
+	padding-top: 10px;
+	display: block;
+	float: right;
+	}
+
+	.nav-list .dropdown .dropdown-toggle {
+	position: absolute;
+	right: 8px;
+	bottom: 13px;
+	}
+
+	.dropdown-toggle::after {
+	display: inline-block;
+	width: 0;
+	height: 0;
+	margin-left: .3em;
+	vertical-align: middle;
+	content: "";
+	border-top: .5em solid;
+	border-right: .5em solid transparent;
+	border-left: .5em solid transparent;
+	}
+
+	.nav-list .dropdown .nav-dropdown{
+	border-radius: 0;
+	width:240px;
+	padding-bottom:0;
+	padding-top: 0;
+	}
+
+	.nav-list .dropdown .nav-dropdown li{
+	padding-top:8px;padding-bottom:8px;
+	display: inline !important;
+	float: left;
+	border-right: 1px solid #eee;
+	border-top:1px solid #eee; 
+	width:100%;
+	}
+
+	.nav-list .dropdown .nav-dropdown li:nth-child(2n){
+	background-color: #f9f6f6;
+	}
+
+	.nav-list .dropdown .nav-dropdown li:nth-child(3n){
+	border-right: 0;
+	}
+
+	.nav-list .dropdown .nav-dropdown .open-repair{
+	width: 100%;
+	border: none;
+	background-color:#e69906 ;
+	padding-top:5px;padding-bottom:5px;
+	}
+
+	.nav-list .dropdown .nav-dropdown .open-repair:hover{
+	background:#cc8807;
+	}
+
+	.nav-list .dropdown .nav-dropdown .open-repair .btn-go-repair{
+	text-align: center;
+	text-transform: uppercase;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	color: #ffffff;
+	font-family: "Roboto";
+	font-weight: 500;
+	border: 0;
+	}
+
+	.nav-list .dropdown .nav-dropdown .open-repair .btn-go-repair .fa{
+	margin-left: 10px;
+	}
+
+	.nav-list .dropdown .nav-dropdown .open-repair .btn-go-repair:hover{
+	text-decoration: underline;
+	color: #e0e1e2;
+	cursor: pointer;
+	}
+
+	.nav-list .dropdown .nav-dropdown .open-repair .btn-go-repair:focus,.nav-list .dropdown .nav-dropdown .open-repair .btn-go-repair:active{
+	outline: none !important;
+	box-shadow: none !important;
+	}
+
+	.nav-list .dropdown .nav-dropdown li a img{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	}
+
+	.nav-list .dropdown .nav-dropdown a p{
+	
+	font-weight: 600;
+	color: #313433;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 13px;
+	padding-left: 15px;padding-right: 15px;
+	margin-top:0;
+	text-align: left!important;
+	width: 100%;
+	margin-bottom:0;
+	}
+
+	.dropdown .nav-dropdown li a:hover{
+	color: #e69906;
+
+	}
+
+	.dropdown .nav-dropdown li a>p:hover{
+	color:#e69906;
+	}
+
+	.nav-list .dropdown .nav-dropdown li:hover{
+	background: #f5f6f8;
+	}
+
+	.nav-list .dropdown .nav-dropdown .nav-title a img {
+	display: block;
+	float: left;
+	padding-left: 10px;
+	}
+
+	.nav-list .dropdown .nav-dropdown .nav-title a p{
+	text-align: center !important;
+	padding-top:7px;
+	color: #313433;
+	font-weight: 700;
+	}
+
+
+	.shrink {
+	display: block;
+	width: 100%;
+	}
+
+
+	.shrink  .shrink {
+	display: none;
+	}
+
+	.shrink {
+	padding-top: 0 !important;
+	padding-bottom: 15px !important;
+	min-height: 70px !important;
+	background-color: #fff;
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 1030;
+	}
+	
+
+
+    
+	 /* ---------- HERO BANNER AND CONTACT US ------------  */
+
+	#file-a-complaint{
+	background: url(../img/uk-home-banner.png) no-repeat;
+	position: relative;
+	background-repeat: no-repeat;
+	padding:0px 0 10px;
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+	}
+
+	.contact-us-form{
+	border-top-left-radius: 30px;
+	border-bottom-right-radius: 30px;
+	padding-left: 30px;padding-right: 30px;
+	padding-bottom: 30px;padding-top:15px;
+	width: 90%;
+	background-color: #fafafa;
+	box-shadow: 0 5px 20px 5px rgba(0,0,0,.1);
+	background-image: -webkit-linear-gradient(0deg, #251c6e 0%, #362a91 52%, #4638b3 100%);
+	position: relative;
+
+	}
+
+	.contact-us-form .contact-title{
+	color: #fff;
+	padding-left: 35px;
+	padding-right: 35px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 0;
+	font-weight: 600;
+	font-size: 21px;
+	border-top-left-radius: 20px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	
+	margin-top: 4px;
+	position: absolute;
+	top: -27px;
+	left: 25px;
+	/*background-image: -webkit-linear-gradient(0deg, #251c6e 0%, #362a91 52%, #4638b3 100%);*/
+	background-color:#f8791b;
+	}
+
+
+	#file-a-complaint .logo-trusted{
+	display: block;
+	position: absolute;
+	bottom: 30px;
+	right: 125px;
+	}
+
+	.form-group .upload-label{
+	
+	color: #fff;
+	font-size: 13px;
+	}
+	.form-group .upload-btn {
+
+	font-size: 15px;
+
+
+	}
+
+
+
+	.contact-us-form  .send-message{
+	
+	font-weight:700;
+	color: #ffffff;
+	font-size: 20px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	border-radius: 3px;
+	background-color:#f8791b;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-right: 10px;
+	margin-top: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	border-top-left-radius: 20px;
+	border-bottom-right-radius:20px;
+
+	}
+
+	.contact-us-form .contact-form-control{
+	font-size: 14px;
+	color: #ffffff;
+	background: #f7f8f9;
+	border: 1px solid #c6c8ca;
+	border-radius: 1px;
+	
+	padding-top: 8px;
+	font-weight: 600;
+	padding-bottom: 8px;
+	padding-left: 15px;
+	width: 100%;
+	}
+	.form-control .placeholder{
+	color: #073664 !important;
+	}
+
+	.contact-form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+	color: #073664 !important;
+	
+	font-weight: 600;
+	opacity: 1; /* Firefox */
+	}
+
+	input, textarea{
+	color: #FFF;
+	}
+
+
+	.contact-us-form .select-title{
+	font-size: 16px;
+	color: #fff;
+	
+	font-weight: 500;
+	}
+
+	.contact-us-form .select-reason{
+	height: 45px;
+	margin-bottom: 20px;
+	width: 100%;
+	}
+
+
+	#file-a-complaint .contact-informations{
+	display: block;
+	padding-left: 60px;
+	margin-top: 160px;
+	}
+
+	.contact-informations h2{
+	font-size:37px;
+	font-family: 'Open Sans', sans-serif;
+	text-align: left;
+	color: #175EA5;
+	font-weight: 800;
+	text-transform: uppercase;
+	text-shadow: none;
+	animation: breath 2s ease-in-out alternate infinite;
+
+	}
+
+
+	.contact-informations h2 span{
+	font-size: 37px;
+	font-family: 'Open Sans', sans-serif;
+	text-align: left;
+	color: #175EA5;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	text-shadow: none;
+	animation: breath 2s ease-in-out alternate infinite;
+
+	}
+
+	@keyframes breath {
+	from { 
+	transform: scale(1);
+	}
+	to {
+	transform: scale(1.03)
+	}
+	}
+
+	.header-image{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+
+	.contact-informations h5{
+		font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	color: #175EA5;
+	font-size: 30px;
+	text-align: left;
+	margin-bottom: 5px;
+	padding-left: 0;
+
+	}
+
+	.contact-informations h6{
+	
+	font-weight: 600;
+	color: #343333;
+	font-size: 17px;
+	text-align: left;
+	margin-top: 25px;
+	padding-left: 0;
+
+	}
+
+	.contact-informations .home-form{
+	margin-top:70px;
+	display: block;
+	}
+
+	.contact-informations .border-small{
+	display: block;
+	width: 100px;
+	border: 2px solid #052E57;
+	}
+
+	.contact-informations h6 .fa{
+	color: #fff;
+	margin-right: 13px;
+	}
+
+
+	.contact-informations .hero-call span img{
+
+	margin-right: 20px;
+	margin-left: -20px;
+	margin-top: -4px;
+	}
+	.contact-informations .hero-call span{
+	
+	font-weight: 600;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-size: 40px;
+	text-align: center; 
+	letter-spacing: 1px;
+	border: 3px solid #fff;
+	padding-top: 15px;padding-bottom: 15px;
+	padding-right: 55px;
+	border-radius: 25px;
+	background-color: #181f27;
+
+	}
+
+	
+	 /* ---------- BACK TO TOP BUTTON ------------  */
+
+   #back-to-top {
+    position: fixed;
+    bottom: 40px;
+    right: 15px;
+    z-index: 9999;
+    width: 32px;
+    height: 32px;
+    text-align: center;
+    line-height: 30px;
+    background: rgba(0,0,0,0.3);
+    color: #fafafa;
+    cursor: pointer;
+    border: 0;
+    border-radius: 2px;
+    text-decoration: none;
+    transition: opacity 0.2s ease-out;
+    opacity: 0;
+    }
+    #back-to-top:hover {
+    background: rgba(0,0,0,0.5);
+    }
+    #back-to-top.show {
+    opacity: 1;
+    }
+
+
+    
+	 /* ---------- HOME: Section About Us and  FundProcess Recovery ------------  */
+
+	.crypto-scam{
+	padding-top: 90px;padding-bottom:130px;
+	background: url(../img/hex-pattern.jpg) no-repeat;
+	background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+	}
+
+	.crypto-scam .txt-image{
+	margin-top: 0;
+	}
+
+	.crypto-scam .txt-services{
+	padding-right: 30px;
+	padding-left: 70px;
+	margin-top: 20px;
+	}
+
+	.txt-services h3{
+	
+	font-weight: 700;
+	color: #175EA5;
+	font-size: 20px;
+	text-align: left;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	margin-bottom: 10px;
+	text-align: left;
+	}
+
+	.txt-services h3 img{
+		margin-right: 15px;
+		margin-top: -3px;
+	}
+
+	.txt-services h2{
+	color: #175EA5;
+	font-size: 34px;
+	text-align: left;
+	margin-top: 5px;
+	margin-bottom: 55px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	letter-spacing: 1px;
+
+	}
+
+	.txt-services p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	color: #1E2022;
+	font-size: 16px;
+	text-align: left;
+	line-height: 30px;
+	}
+
+	.txt-image img{
+	display: block;
+	margin-top: 0;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+
+	/* Home: Process recover money Text */
+    
+	.second-text{
+	padding-right: 30px;
+	padding-left: 135px;
+	margin-top: 20px;
+	}
+
+
+	.second-text h4{
+
+	font-weight: 700;
+	color: #175EA5;
+	font-size: 20px;
+	text-align: left;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	margin-bottom: 10px;
+	text-align: left;
+	}
+
+	.second-text h4 img{
+	margin-right: 15px;
+	margin-top: -3px;
+	}
+
+	.second-text h1{
+	color: #175EA5;
+	font-size: 34px;
+	text-align: left;
+	margin-top: 5px;
+	margin-bottom: 55px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	letter-spacing: 1px;
+
+	}
+
+	.second-text p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	color: #1E2022;
+	font-size: 16px;
+	text-align: left;
+	line-height: 30px;
+	}
+
+	/* Home: Process recover money Steps */
+	
+	.home-process{
+		margin-top: 90px;
+		padding-left: 90px;
+		padding-right: 90px;
+	}
+
+	.steps-box{
+	padding-left:0;
+	padding-right: 0;
+	padding-bottom:50px;
+	background-color: #fff;
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+	border-top-left-radius:30px;
+	border-top-right-radius: 30px;
+	border-bottom-left-radius: 30px;
+	max-width: 30%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+	.steps-box .top{
+		background-color: #175EA5;
+		padding-top: 30px;
+		padding-bottom: 30px;
+		border-top-right-radius: 30px;
+		border-top-left-radius: 30px;
+	}
+
+	.steps-box .top img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+	
+	}
+
+	.steps-box .top h4{
+	color: #fff;
+	font-size: 18px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom:20px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	
+	}
+
+	.steps-box .small-text{
+	color: #4B4A4A;
+	font-size: 15px;
+	text-align: left;
+	margin-top: 20px;
+	margin-bottom:20px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 500;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 25px;
+
+	}
+	
+
+	.button-go-1{
+
+	font-weight: 500;
+	color: #fff;
+	font-size: 16px;
+	letter-spacing: 1px;
+	background: transparent;
+	width: 320px;
+	padding-top: 23px;
+	padding-bottom: 23px;
+	margin-top: 80px;
+	background-color: #F4B146;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 30px;
+	margin-bottom: 20px;
+	}
+
+	.button-go-1.fa{
+	margin-left: 10px;
+	}
+
+
+	    
+    /* Home:  OUR SERVICES SECTION  */
+
+
+	#home-services{
+	padding-top: 100px;padding-bottom:120px;
+	background: url(../img/home-our-services-background.png) no-repeat;
+
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	position: relative;
+	}
+	
+	#home-services .h-text{
+	padding-right: 30px;
+	padding-left: 135px;
+	margin-top: 60px;
+	}
+	
+	.h-text h4{
+
+	font-weight: 700;
+	color: #fff;
+	font-size: 20px;
+	text-align: left;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	margin-bottom: 10px;
+	text-align: left;
+	}
+
+	.h-text h4 img{
+	margin-right: 15px;
+	margin-top: -3px;
+	}
+	
+	.h-text h1{
+	color: #fff;
+	font-size: 34px;
+	text-align: left;
+	margin-top: 5px;
+	margin-bottom: 35px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	letter-spacing: 1px;
+
+	}
+
+	.h-text p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	color: #fff;
+	font-size: 16px;
+	text-align: left;
+	line-height: 30px;
+	}
+
+
+	  
+    /* Carousel Our Services */
+    
+    
+	.car-services{
+		background-color: #FFFFFF;
+		height: 570px;
+		display: block;
+		float: left;
+		max-width: 28%;
+		margin-right: 30px;
+		padding-left: 0;
+		padding-right: 0;
+		border
+	}
+
+	.card-impressions .carousel-item {
+		height:650px;
+	
+	
+	}
+	
+	.card-impressions .user-caption {
+	padding-bottom:10px;
+	padding-left: 20px;padding-right: 20px;
+	right: 0;
+	left: 0;
+	color: #0c1f44;
+	background:transparent;
+	height: 100%;
+	width: 100%;
+	border-radius:0;
+
+	top:30px;
+	}
+	
+
+	.car-services:last-child{
+		margin-right: 0;
+	}
+
+	.car-services .s-picture{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 0;
+	width: 100%;
+	}
+
+	.car-services  .title-ser {
+		color: #343333;
+		font-size: 19px;
+		text-align: center;
+		margin-top: 30px;
+		margin-bottom: 10px;
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 700;
+		text-transform: uppercase;
+		margin-top: 30px;
+		margin-bottom: 0;
+		text-decoration: none;
+	
+		}
+
+	.car-services  .title-ser a{
+	color: #343333;
+	font-size: 19px;
+	text-align: center;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-top: 30px;
+	margin-bottom: 0;
+	text-decoration: none;
+
+	}
+
+	.car-services  .text-review {
+	color: #4B4A4A;
+	font-size: 15px;
+	text-align: left;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 500;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 0;
+	}
+
+	
+	.feedback{
+	margin-top: 50px;
+	}
+
+	.feedback .client-title{
+	color: #F55340;
+	font-size: 28px;
+	text-align: left;
+	margin-top: 5px;
+	margin-bottom: 50px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	letter-spacing: 1px;
+	padding-left: 25px;
+
+	}
+	.card-impressions{
+	display: block;
+	float: left;
+
+	
+
+	}
+
+	.feedback{
+	margin-top: 50px;
+	}
+
+
+	.card-impressions  .carousel-caption .col-sm-3 {
+	display: flex;
+	align-items: center;
+	}
+	.card-impressions .carousel-caption .col-sm-9 {
+	text-align: left;
+	}
+
+
+	.navi{
+	display: block;
+	margin-right: auto;margin-left: auto;
+	width: 54px;
+	margin-top: 15px;
+	position: absolute;
+	right: 47%; bottom:-15px;
+
+
+	}
+
+	.navi .carousel-control-prev-icon {
+	background-image: url(../img/arrow-left.png);
+	background-repeat: no-repeat;
+
+	}
+
+	.navi  .carousel-control-next-icon {
+	background-image: url(../img/arrow-right.png);
+	background-repeat: no-repeat;
+	}
+	
+	
+		
+	
+	 /* Home: Section Two text Services */
+	
+	#two-texts{
+			padding-top: 60px;
+			padding-bottom: 100px;
+	}
+
+	.inside-text{
+		padding-right: 70px;
+		padding-left: 70px;	
+	}
+
+	.in-text{
+	 margin-top: 50px;
+	}
+
+	.in-text h2{
+	color: #175EA5;
+	font-size: 29px;
+	text-align: left;
+	margin-top: 5px;
+	margin-bottom: 55px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	letter-spacing: 1px;
+
+	}
+	
+	.in-text h3{
+
+	font-weight: 700;
+	color: #175EA5;
+	font-size: 20px;
+	text-align: left;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	margin-bottom: 10px;
+	text-align: left;
+	}
+
+
+	.in-text p {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	color: #1E2022;
+	font-size: 16px;
+	text-align: left;
+	line-height: 30px;
+	}
+
+
+	.in-text h3 img{
+	margin-right: 15px;
+	margin-top: -3px;
+	}
+
+	.in-image img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+
+	
+	 /* Home: SECTION TRUST US */
+	
+	
+	#home-trust{
+	padding-top: 100px;
+	padding-bottom: 150px;
+	background: url(../img/trust-blue-background.png) #F4F7FB no-repeat;
+	position: relative;
+	background-size: cover;
+	background-position: center center;
+	}
+
+	.home-row{
+	padding-left:80px;
+	padding-right: 80px;
+	}
+
+	.trust-text h2{
+	color: #fff;
+	font-size: 34px;
+	text-align: left;	
+	margin-top: 5px;
+	margin-bottom: 55px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	letter-spacing: 1px;
+	width: 100%;
+
+	}
+
+	.trust-text h3{
+	width: 100%;
+	font-weight: 700;
+	color: #fff;
+	font-size: 20px;
+	text-align: left;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	margin-bottom: 10px;
+	text-align: left;
+	}
+
+	.trust-text h3 img{
+	margin-right: 15px;
+	margin-top: -3px;
+	}
+
+
+	.trust-text .law-pic{
+	display: block;
+	margin-top: 50px;
+
+	}
+
+
+	.trust-text  p {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	color: #fff;
+	font-size: 16px;
+	text-align: left;
+	line-height: 25px;
+	}
+
+
+	.list-choose {
+	display: block;
+	float: left;
+	margin-left: auto;
+	margin-right: auto;
+	padding-left:20px;
+	margin-top: 70px;
+	padding-right:0;
+	}
+
+	.list-choose li{
+	display: block;
+	margin-bottom: 30px;
+	float: left;
+	width:25%;
+	list-style-type: none;
+
+	padding-left: 0;padding-right: 0;
+	padding-bottom: 0;
+	padding-top:0;
+
+	margin-right:25px;
+
+	}
+
+	.list-choose li:last-child{
+	margin-right: 0;
+	}
+
+	.list-choose li img{
+	display: block;
+	float: left;
+	margin-right: 20px;
+
+	}
+
+	.list-choose li h6{
+	color: #fff;
+	font-size: 15px;
+	text-align: left;
+	margin-bottom: 10px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 500;
+	width: 100%;
+	display: block;
+	float: left;
+	margin-top: 15px;
+	line-height: 23px;
+	}
+
+
+	.button-go-now{
+
+	font-weight: 500;
+	color: #fff;
+	font-size: 16px;
+	letter-spacing: 1px;
+	background: transparent;
+	width: 300px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-top: 40px;
+	background-color: #F4B146;
+	display: block;
+
+	border-radius: 30px;
+	margin-bottom: 20px;
+	float: left;
+	margin-left: 30px;
+	}
+
+	.button-go-now .fa{
+	margin-left: 15px;
+	}
+
+
+
+	 /* Home  Client Feedback Section  */
+
+
+	#clients{
+	padding-top: 90px;
+	padding-bottom: 90px;
+	background-color: #F4F7FB;
+	}
+
+	#clients .c-row{
+	padding-left: 70px;
+	padding-right: 70px;
+	}
+
+
+	#clients h2{
+	color: #175EA5;
+	font-size: 34px;
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 90px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	letter-spacing: 1px;
+	display: block;
+	margin-left: auto;margin-right: auto;
+	width: 100%;
+	}
+
+	#clients h3{
+
+	font-weight: 700;
+	color: #175EA5;
+	font-size: 20px;
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	margin-bottom: 10px;
+	text-align: center;
+	display: block;
+	margin-left: auto;margin-right: auto;
+	}
+
+	.client-review{
+	padding-top: 35px;
+	padding-bottom: 35px;
+	border: 1px solid #F8F7F7;
+	background-color: #FAFAFA;
+	position: relative;
+	padding-left: 30px;
+	padding-right: 30px;
+	box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
+	border-radius: 20px;
+	max-width: 30%;
+	margin-right: 35px;
+	}
+
+	.client-review:last-child{
+		margin-right: 0;
+	}
+
+	.client-review h4{
+	color: #343333;
+	font-size: 17px;
+	text-align: center;
+	margin-bottom: 5px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	}
+
+	.client-review h5{
+	color: #343333;
+	font-size: 14px;
+	text-align: center;
+	margin-bottom: 30px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 500;
+	}
+
+
+	.client-review h6{
+	color: #343333;
+	font-size: 15px;
+	text-align: left;
+	margin-bottom: 40px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 500;
+	width: 100%;
+	font-style: italic;
+	
+	}
+
+	.client-review .bor-line{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid #BFBBBB;
+	margin-bottom: 20px;
+	}
+
+
+	.client-review .s-type{
+	color: #343333;
+	font-size: 13px;
+	text-align: left;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 500;
+	display: block;
+	float: left;
+	margin-bottom: 3px;
+	width: 100%;
+	}
+
+	.client-review .s-type span{
+	color: #171616;
+	font-size: 13px;
+	font-weight: 700;
+	margin-left: 5px;
+	}
+
+	.client-review .s-lost{
+	color: #343333;
+	font-size: 13px;
+	text-align: left;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 500;
+	display: block;
+	float:left ;
+	margin-bottom: 3px;
+	width: 100%;
+	}
+
+	.client-review .s-lost span{
+	color: #AB1818;
+	font-size: 14px;
+	font-weight: 700;
+	}
+
+	.client-review .s-return{
+	color: #343333;
+	font-size: 13px;
+	text-align: left;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 500;
+	display: block;
+	float:left ;
+	margin-bottom: 3px;
+	width: 100%;
+	}
+
+	.client-review .s-return span{
+	color: #61980F;
+	font-size: 14px;
+	font-weight: 700;
+	}
+
+	.client-review .img-quote{
+		position: absolute;
+		top: -25px;
+		left: 45%;
+	}
+
+	.client-review .img-star{
+	position: absolute;
+	bottom: 70px;
+	right: 30px;
+	}
+
+
+
+	/* ----- HOME FINALBANNER CTA DESIGN ----------- */
+
+	.final-banner{
+		padding-top: 130px;padding-bottom: 130px;
+		background: url(../img/cta-banner-home.jpg) no-repeat;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: 100% 100%;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center center;
+		
+		}
+
+		.final-banner .blue-text{
+		padding-left: 60px;
+
+		}
+
+		.final-banner  .buy-image{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		border-radius: 20px;
+		border: 4px solid #fff;
+		}
+
+		.final-banner h2 {
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 800;
+		color: #175EA5;
+		font-size: 38px;
+		text-align: left;
+		margin-top: 2px;
+		margin-bottom: 40px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 100%;
+		text-transform: uppercase;
+		}
+
+		.final-banner  h3{
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 700;
+		color: #175EA5;
+		font-size: 21px;
+		text-align: left;
+		line-height: 24px;
+		margin-bottom: 5px;
+		}
+
+
+		.final-banner  p{
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 600;
+		color: #343333;
+		font-size: 16px;
+		text-align: left;
+		line-height: 24px;
+		margin-bottom: 15px;
+		}
+
+
+
+		.final-banner .btn-get-money{
+
+		font-weight: 500;
+		color: #fff;
+		font-size: 15px;
+		letter-spacing: 1px;
+		background: transparent;
+		width: 270px;
+		padding-top: 17px;
+		padding-bottom: 17px;
+
+		background-color: #F4B146;
+		display: block;
+		float: left;
+		border-radius: 30px;
+		margin-bottom: 20px;
+		margin-top: 80px;
+		}
+
+		.final-banner .btn-get-money .fa{
+		margin-left: 8px;
+		}
+
+
+	/* ----- ABOUT US PAGE ----------- */
+
+	
+	#cover-about{
+	background: url(../img/cover-about.png) no-repeat;
+    position: relative;
+    background-size: cover;
+    background-position: center center;
+	min-height: 800px;
+	padding-top: 150px;
+    margin-top: 85px;
+
+
+	}
+
+	.c-ab-text{
+	padding-right: 30px;
+	padding-left: 0;
+
+	}
+
+
+	.c-ab-text h3{
+
+	font-weight: 700;
+	color: #175EA5;
+	font-size: 20px;
+	text-align: left;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	margin-bottom: 10px;
+	text-align: left;
+	}
+
+	.c-ab-text h3 img{
+	margin-right: 15px;
+	margin-top: -3px;
+	}
+
+	.c-ab-text h2{
+	color: #175EA5;
+	font-size: 34px;
+	text-align: left;
+	margin-top: 5px;
+	margin-bottom: 45px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	letter-spacing: 1px;
+
+	}
+
+	.c-ab-text p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	color: #1E2022;
+	font-size: 16px;
+	text-align: left;
+	line-height: 30px;
+	}
+	
+
+	.c-ab-text .trusted-logos{
+		margin-top: 120px;
+		display: block;
+	}
+
+	
+	/* ----- ABOUT US PAGE : SECOND SECTION ----------- */
+
+	
+	#about-second{
+		padding-top: 90px;
+		padding-bottom: 90px;
+	}
+	
+	.c-text-2{
+		margin-top: 20px;
+	}
+	
+
+	.c-text-2 h2{
+	color: #175EA5;
+	font-size: 30px;
+	text-align: left;
+	margin-top: 5px;
+	margin-bottom: 45px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	letter-spacing: 1px;
+
+	}
+
+
+	.c-text-2 p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	color: #1E2022;
+	font-size: 16px;
+	text-align: left;
+	line-height: 30px;
+	padding-right: 40px;
+	}
+
+	.small-box{
+	background-color: #F9FCFC;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 2px 2px 2px 1px rgb(0 0 0 / 20%);
+	padding-bottom: 30px;
+	margin-left: auto;
+	margin-right: auto;
+	border-top-right-radius: 20px;
+	border-top-left-radius: 20px;
+	}
+
+
+	.small-box img{
+		width: 100%;
+		display: block;
+	}
+
+	.small-box h6{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	color: #1E2022;
+	font-size: 17px;
+	text-align: center;
+	display: block;
+	width: 100%;
+	margin-top: 30px;
+	margin-bottom: 40px;
+	}
+
+
+	.small-box .btn-get-con{
+
+	font-weight: 500;
+	color: #fff;
+	font-size: 15px;
+	letter-spacing: 1px;
+	background: transparent;
+	width: 290px;
+	padding-top: 17px;
+	padding-bottom: 17px;
+
+	background-color: #F4B146;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 30px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	}
+
+	.small-box .btn-get-con .fa{
+	margin-left: 8px;
+	}
+
+/* ----- ABOUT US PAGE : SECTION WHY CHOOSE US ----------- */
+	
+
+	.section-trust{
+	padding-top: 90px;padding-bottom: 120px;
+	background: url(../img/globe-section-bck.jpg) no-repeat;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100% 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+
+	}
+
+	.section-trust .blue-text{
+	padding-left: 60px;
+
+	}
+
+	.section-trust  .mix-image{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0;
+	}
+
+	.section-trust h2 {
+	color: #175EA5;
+	font-size: 30px;
+	text-align: left;
+	margin-top: 5px;
+	margin-bottom: 45px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	letter-spacing: 1px;
+
+	}
+
+	.section-trust .center-fund{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+	.section-trust  p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	color: #1E2022;
+	font-size: 16px;
+	text-align: left;
+	line-height: 24px;
+	padding-right: 50px;
+	}
+
+	.section-trust h5{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	color: #fff;
+	font-size: 16px;
+	text-align: center;
+	display: block;
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 40px;
+	}
+
+	.section-trust .btn-get-money{
+
+	font-weight: 500;
+	color: #fff;
+	font-size: 15px;
+	letter-spacing: 1px;
+	background: transparent;
+	width: 300px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #F4B146;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 30px;
+	margin-bottom: 20px;
+	margin-top: 35px;
+	}
+
+	.section-trust .btn-get-money .fa{
+	margin-left: 8px;
+	}
+
+	.small-features{
+	padding-left: 20px;
+	display: block;
+	float: left;
+	margin-top: 30px;
+	}
+
+	.small-features li{
+	margin-bottom: 20px;
+	display: block;
+	float: left;
+	width: 100%;
+	}
+
+	.small-features li h6{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	color: #343333;
+	font-size: 17px;
+	text-align: left;
+	line-height: 30px;
+	padding-right: 50px;
+	}
+
+	.small-features li img{
+	display: block;
+	float: left;
+	margin-right: 20px;
+	margin-top: 4px;
+	}
+
+	.small-features li .sf-txt {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 500;
+	color: #1E2022;
+	font-size: 15px;
+	text-align: left;
+	padding-right: 30px;
+	}
+
+	
+/* ----- BANNER SPLIT BLUE GRAY ----------- */
+
+
+	#splited-banner{
+	position: relative;
+
+	}
+
+	#splited-banner .call-agent{
+		top: 60px;
+		left: 50%;
+		transform: translate(-50%,0);
+		position:absolute;
+		z-index: 999;
+	}
+	
+	.blue-side-banner{
+	display: block;
+	width: 100%;
+	padding-top: 90px;padding-bottom: 90px;
+	background-color: #175EA5;
+	padding-bottom: 70px;
+	padding-top: 70px;;
+	background-size: cover;
+	background-position: center center;
+	}
+
+	.blue-side-banner h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	color: #fff;
+	font-size: 26px;
+	text-align: center;
+	margin-top: 2px;
+	margin-bottom: 20px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	}
+
+	.blue-side-banner h5 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+	margin-bottom: 20px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	}
+
+
+	.blue-side-banner .btn-get-now{
+	font-weight: 500;
+	color: #fff;
+	font-size: 16px;
+	letter-spacing: 1px;
+	background: transparent;
+	width: 300px;
+	padding-top: 22px;
+	padding-bottom: 22px;
+	background-color: #F4B146;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 30px;
+	margin-bottom: 20px;
+	margin-top: 35px;
+	}
+
+	.blue-side-banner .btn-get-now .fa{
+	margin-left: 8px;
+	}
+
+
+
+	.gray-side-banner{
+	display: block;
+	width: 100%;
+	padding-top: 90px;padding-bottom: 90px;
+	background-color: #efefef;
+	padding-bottom: 70px;
+	padding-top: 70px;;
+	background-size: cover;
+	background-position: center center;
+	}
+
+	.gray-side-banner h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	color: #175EA5;
+	font-size: 26px;
+	text-align: center;
+	margin-top: 2px;
+	margin-bottom: 20px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	}
+
+	.gray-side-banner h5 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	color: #175EA5;
+	font-size: 20px;
+	text-align: center;
+	margin-bottom: 20px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	}
+
+
+	.gray-side-banner .btn-phone{
+	font-weight: 700;
+	color: #fff;
+	font-size: 21px;
+	letter-spacing: 1px;
+	background: transparent;
+	width: 300px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #F4B146;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 30px;
+	margin-bottom: 20px;
+	margin-top: 35px;
+	position: relative;
+	text-align: center;
+
+	}
+
+	.gray-side-banner .img-ph{
+		position: absolute;
+		top: -1px;
+		left: -20px;
+	
+	}
+
+	.gray-side-banner .btn-phone .fa{
+	margin-left: 8px;
+	}
+
+
+	
+
+	/* ----- OUR CLAIM PROCESS PAGE ----------- */
+	
+
+
+	#cover-process{
+	background: url(../img/cover-claim-process.jpg) no-repeat;
+	position: relative;
+	background-size: cover;
+	background-position: center center;
+	min-height: 800px;
+	padding-top: 150px;
+
+	margin-top: 85px;
+	}
+
+	.cover-text-2 {
+	padding-right: 30px;
+	padding-left: 0;
+	margin-top: 70px;
+
+	}
+
+	.cover-text-2 h3{
+	font-weight: 700;
+	color: #175EA5;
+	font-size: 20px;
+	text-align: left;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	margin-bottom: 10px;
+	text-align: left;
+	}
+
+	.cover-text-2 h3 img{
+	margin-right: 15px;
+	margin-top: -3px;
+	}
+
+	.cover-text-2 h2{
+	color: #175EA5;
+	font-size: 32px;
+	text-align: left;
+	margin-top: 5px;
+	margin-bottom: 45px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	letter-spacing: 1px;
+
+	}
+
+	.cover-text-2 p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	color: #1E2022;
+	font-size: 16px;
+	text-align: left;
+	line-height: 30px;
+	}
+
+	
+	/* ============= CLAIM PROCESS TEXT   ========================*/
+
+	#claim-process-text{
+		padding-top: 20px;
+		padding-bottom: 70px;
+	}
+
+	#claim-process-text  h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	color: #343333;
+	font-size: 26px;
+	text-align: center;
+	margin-top: 2px;
+	margin-bottom: 40px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	}
+
+
+	#claim-process-text .sm-txt-1 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 500;
+	color: #1E2022;
+	font-size: 16px;
+	text-align: left;
+	line-height: 25px;
+	}
+
+	.claim-list{
+	display: block;
+	float: left;
+	width: 100%;
+	margin-top: 25px;
+	
+	}
+
+	.claim-list li{
+	float: left;
+	width: 100%;
+	margin-bottom: 20px;
+	color: #175EA5;
+	}
+
+	.claim-list li h6{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	color: #175EA5;
+	font-size: 17px;
+	text-align: left;
+	line-height: 25px;
+	
+
+	}
+
+	.claim-list li::before{
+	color: #000;
+	}
+
+	.claim-list li h6 span{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 500;
+	color: #343333;
+	font-size: 16px;
+	text-align: left;
+
+	}
+
+	
+	/* Claim PageLImprove Your Chances */
+
+	.process-sucess{
+	background-color: #F9FCFC;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	box-shadow: 2px 2px 2px 2px rgb(0 0 0 / 20%);
+	margin-bottom: 100px;
+	border-radius: 30px;
+	}
+
+	.process-sucess .sucess-image{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+	.right-sucess{
+	margin-top: 30px;
+	padding-right: 30px;
+	}
+
+	.right-sucess h1{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	color: #175EA5;
+	font-size: 26px;
+	text-align: center;
+	margin-top: 2px;
+	margin-bottom: 40px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	}	
+
+	.right-sucess p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 500;
+	color: #1E2022;
+	font-size: 16px;
+	text-align: left;
+	line-height: 25px;
+	}
+
+	.phone-cta{
+	display: block;
+	width: 100%;
+	float: left;
+	padding-left: 0;
+	}
+
+	.phone-cta li{
+	display: block;
+	width: 47%;
+	float: left;
+	margin-right: 20px;
+	}
+
+	.phone-cta li:last-child{
+	margin-right: 0;
+	}
+
+
+	.phone-cta li .btn-return{
+	font-weight: 500;
+	color: #fff;
+	font-size: 14px;
+	letter-spacing: 1px;
+	background: transparent;
+	width: 240px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: #F4B146;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+	margin-bottom: 20px;
+	margin-top: 35px;
+	}
+
+	.phone-cta li .btn-return .fa{
+	margin-left: 8px;
+	}
+
+
+	.phone-cta li .btn-phone-call {
+	font-weight: 700;
+	color: #fff;
+	font-size: 17px;
+	letter-spacing: 1px;
+	background: transparent;
+	width: 250px;
+	padding-top: 13px;
+	padding-bottom: 14px;
+	background-color: #F4B146;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 30px;
+	margin-bottom: 20px;
+	margin-top: 35px;
+	position: relative;
+	text-align: center;
+	}
+
+	.phone-cta li .img-ph-2{
+	position: absolute;
+	top: -1px;
+	left: -14px;
+	width: 55px;
+
+	}
+
+		
+	/* Claim process page: Steps */
+	
+
+	#main-steps{
+	padding-top: 70px;
+	padding-bottom: 70px;
+	}
+
+	#main-steps h1{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	color: #343333;
+	font-size: 26px;
+	text-align: center;
+	margin-top: 2px;
+	margin-bottom: 70px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	}
+
+	.funds-steps {
+	display: block;
+	float: left;
+	width: 100%;
+	}
+
+	.funds-steps  li{
+	display: block;
+	float: left;
+	width: 100%;
+	margin-bottom: 35px;
+	box-shadow: 1px 1px 1px 1px rgb(0 0 0 / 20%);
+	height: 202px;
+
+	}
+
+	.funds-steps  li .s-color{
+	background-color: #175EA5;
+	display: block;
+	float: left;
+	width: 30%;
+	padding-top:40px;
+	padding-bottom: 40px;
+	}
+
+
+	.funds-steps  li .s-color img{
+	margin-left: auto;
+	display: block;
+	margin-right: auto;
+	}
+
+	.funds-steps  li .s-color h5{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	color: #fff;
+	font-size: 17px;
+	text-align: center;
+	margin-top: 20px;
+	width: 100%;
+	text-transform: uppercase;
+	}
+
+
+	.funds-steps  li .d-text{
+	background-color: #FFFEFC;
+	display: block;
+	float: left;
+	width: 70%;
+	}
+
+	.funds-steps  li .d-text p{
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    color: #1E2022;
+    font-size: 16px;
+    text-align: left;
+    line-height: 20px;
+	padding-left: 40px;
+	padding-top: 40px;
+	padding-right: 30px;
+	}
+
+
+
+	/* ----- FUNDS RECOVERY PAGE ----------- */
+	
+	
+
+	#contact-us-page{
+	background: url(../img/contact-us-cover.jpg) no-repeat;
+	position: relative;
+	background-repeat: no-repeat;
+	padding:0px 0 10px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	min-height: 1080px;
+	padding-top: 140px;
+	}
+
+	.file-text{
+	display: block;
+	padding-left: 60px;
+	margin-top: 50px;
+	}
+
+	.file-text h2{
+	font-size:37px;
+	font-family: 'Open Sans', sans-serif;
+	text-align: left;
+	color: #175EA5;
+	font-weight: 800;
+	text-transform: uppercase;
+	text-shadow: none;
+	animation: breath 2s ease-in-out alternate infinite;
+
+	}
+
+
+	.file-text h2 span{
+	font-size: 37px;
+	font-family: 'Open Sans', sans-serif;
+	text-align: left;
+	color: #175EA5;
+	font-weight:800;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	text-shadow: none;
+	animation: breath 2s ease-in-out alternate infinite;
+
+	}
+
+	.file-text h3{
+
+	font-weight: 700;
+	color: #175EA5;
+	font-size: 20px;
+	text-align: left;
+	margin-top: 10px;
+	margin-bottom: 5px;
+	margin-bottom: 10px;
+	text-align: left;
+	}
+
+	.file-text h3 img{
+	margin-right: 15px;
+	margin-top: -3px;
+	}
+
+
+	.file-text  p {
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 600;
+		color: #1E2022;
+		font-size: 16px;
+		text-align: left;
+		line-height: 25px;
+		margin-top: 50px;
+		width: 70%;
+		margin-bottom: 40PX;
+	}
+
+	.file-text  h6 {
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 700;
+		color: #1E2022;
+		font-size: 16px;
+		text-align: left;
+		line-height: 25px;
+		margin-bottom: 5px;
+		width:100%;
+		margin-left: 30px;
+	}
+
+	.file-text  h6 img{
+		display: block;
+		float: left;
+		margin-right: 20px;
+		margin-top: 8px;
+	}
+	
+	
+	/* FOOTER */
+
+	footer{
+	background:#01172d;
+	padding-top:45px;
+	padding-bottom:0;
+	border-top:7px solid #fff;
+	}
+	.sub-footer{
+	display: block;
+	width: 100%;
+	padding-top:20px;padding-bottom:20px;
+	background-color:#01172d;
+	margin-top: 0;
+	}
+
+	.sub-footer .copy {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	color: #c5c2c2;
+	text-align:left;
+	display: block;
+	font-size: 11px;
+
+	margin-top: 3px;
+
+	}
+
+
+	.phone-numbers{
+	display: block;
+	float: left;
+	width: 100%;
+	list-style-type: none;
+	padding-left: 20px;
+	border-top: 1px solid #2b3034;
+	border-bottom: 1px solid #2b3034;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	position: relative;
+	margin-top: 35px;
+	}
+
+	.phone-numbers li{
+	display: inline-block;
+	float: left;
+
+	}
+
+	.phone-numbers  h4{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	color: #F55340;
+	text-transform: uppercase;
+	margin-right: 40px;
+	margin-top: 15px;
+	text-align: center;
+	position: absolute;
+	left: 45%;
+	top: -26px;
+	background: #01172d
+	}
+
+	.phone-numbers li span{
+	width: 100%;
+	float: left;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 10px;
+	font-weight: 400;
+	color: #EBE7E7;
+	padding-left: 60px;
+	}
+
+	.phone-numbers li a{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 17px;
+	font-weight: 700;
+	color: #ffffff;
+	letter-spacing: 1px;
+
+	}
+
+	.phone-numbers li a img{
+	display: block;
+	float: left;
+	margin-right: 10px;
+	margin-top: -12px;
+	width: 40px;height: 40px;
+	}
+
+	.link-footer h5{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: 600;
+	color: #ffffff;
+	letter-spacing: 1px;
+	text-align: left;
+	width: 100%;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	}
+
+	.link-footer a{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	font-weight: 400;
+	text-align: left;
+	width: 100%;
+	display: block;
+	float: left;
+	margin-bottom: 10px;
+
+	text-decoration: none;
+	color: #c5c2c2;
+	}
+
+	.link-footer a img{
+	display: block;
+	float: left;
+	margin-right: 20px;
+	margin-top: 3px;
+	}
+
+   
+
+	/* --------------- FOOTER STYLE -------------------  */ 
+
+
+    
+
+    /* -------------- SUBMIT CONTACT US FORM ------------- */
+	.contact-form .form-title{
+	display: block;
+	float: left;
+	width: 100%;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	color: #fff;
+	background-color: #175EA5;
+	font-size: 20px;
+	font-weight: 700;
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	border-top-left-radius: 5;
+	border-top-right-radius: 5;
+	margin-bottom: 40px;
+	}
+
+	.contact-form img{
+	margin-top: 20px;
+	}
+
+	.contact-form .form-title span{
+
+	text-align: center;
+	color: #fff;
+	font-size:15px;
+	font-weight: 500;
+	text-align: center;
+	text-transform: capitalize;
+
+	}
+	.contact-form{
+	background-color: #FAFAFA;
+	padding-bottom: 30px;
+	padding-left: 0;
+	padding-right: 0;
+	border: 1px solid #FAFAFA;
+	border-radius: 5px;
+	margin-left: 50px;
+	display: block;
+	float: left;
+	margin-top: 30px;
+	margin-bottom: 95px;
+	} 
+
+	.contact-form form{
+	padding-left: 30px;
+
+	}
+
+	.contact-form .form-group{
+	display: block;
+	float: left;
+	width: 45%;
+	margin-right: 25px;
+	}
+
+	.contact-form .box-message{
+	display: block;
+	float: left;
+	width: 94%;
+	margin-right: 25px;
+	height: 100px !important;
+	}
+
+	.contact-form .form-group .book-form{
+
+	border-radius: 3px;
+	}
+
+
+	.contact-form .button-submit{
+	display: block;
+	float: left;
+	margin-top: 40px;
+	width: 94%;
+	background-color: #F4B146;
+	color: #fff;
+	font-size: 20px;
+	text-transform: uppercase;
+		font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	letter-spacing: 2px;
+	padding-top: 14px;padding-bottom: 14px;
+
+	}
+
+
+    .jquery-datepicker {
+        position: relative;
+        outline: none;
+        display: none;
+        box-sizing: border-box;
+        width: 240px;
+        height: 240px;
+        padding: 5px;
+        font-size: 16px;
+        font-family: sans-serif;
+      }
+      .jquery-datepicker .datepicker-box {
+        display: none;
+        flex-direction: column;
+        height: 100%;
+      }
+      .jquery-datepicker .datepicker-box .box-row {
+        display: flex;
+        min-height: 0;
+        flex: 1;
+      }
+      .jquery-datepicker .datepicker-box .box-row.row-header {
+        flex: none;
+        position: relative;
+        padding-bottom: 5px;
+        padding-right: 60px;
+        margin-bottom: 5px;
+      }
+      .jquery-datepicker .datepicker-box .box-row.row-header .header-title {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: left;
+        padding: 5px 7px;
+        cursor: pointer;
+        width: 100%;
+      }
+      .jquery-datepicker .datepicker-box .box-row.row-header .header-actions {
+        position: absolute;
+        top: 3px;
+        right: 3px;
+        bottom: 3px;
+      }
+      .jquery-datepicker .datepicker-box .box-row.row-header .header-actions .header-action {
+        display: flex;
+        position: relative;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        float: left;
+        height: 100%;
+        width: 25px;
+        cursor: pointer;
+      }
+      .jquery-datepicker .datepicker-box .box-row.row-header .header-actions .header-action:not(:last-child) {
+        margin-right: 3px;
+      }
+      .jquery-datepicker .datepicker-box .box-row.row-header .header-actions .header-action::after {
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-style: solid;
+        top: 50%;
+        left: 50%;
+        margin-left: -3px;
+        margin-top: -6px;
+      }
+      .jquery-datepicker .datepicker-box .box-row.row-header .header-actions .header-action.action-down::after {
+        border-width: 5px 6px 5px 0;
+        border-color: transparent red transparent transparent;
+      }
+      .jquery-datepicker .datepicker-box .box-row.row-header .header-actions .header-action.action-up::after {
+        border-width: 5px 0 5px 6px;
+        border-color: transparent transparent transparent red;
+      }
+      .jquery-datepicker .datepicker-box .box-row.row-days {
+        font-size: 12px;
+        text-align: center;
+        text-transform: uppercase;
+      }
+      .jquery-datepicker .datepicker-box .box-row.row-week {
+        font-size: 14px;
+        text-align: right;
+      }
+      .jquery-datepicker .datepicker-box .box-row .box-cell {
+        display: flex;
+        flex: 1 1 0;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        padding: 5px;
+        cursor: default;
+      }
+      .jquery-datepicker .datepicker-box.is-active {
+        display: flex;
+      }
+      .jquery-datepicker.is-2x {
+        width: 480px;
+        height: 480px;
+        font-size: 21px;
+      }
+      .jquery-datepicker.is-2x .datepicker-box .box-row.row-days {
+        font-size: 16px;
+      }
+      .jquery-datepicker.is-2x .datepicker-box .box-row.row-week {
+        font-size: 18px;
+      }
+      .jquery-datepicker.is-open {
+        display: block;
+      }
+      .jquery-datepicker.is-popup {
+        position: absolute;
+        top: 50px;
+        left: 50px;
+        box-shadow: 0 2px 12px rgba(0, 0, 0, 0.15);
+        z-index: 9999;
+      }
+      .jquery-datepicker.is-popup::before,
+      .jquery-datepicker.is-popup::after {
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 0;
+        border-style: solid;
+      }
+      .jquery-datepicker.is-popup.tip-below::before,
+      .jquery-datepicker.is-popup.tip-below::after {
+        bottom: -10px;
+        border-width: 10px 10px 0 10px;
+        border-color: red transparent transparent transparent;
+      }
+      .jquery-datepicker.is-popup.tip-below::before {
+        bottom: -11px;
+      }
+      .jquery-datepicker.is-popup.tip-above::before,
+      .jquery-datepicker.is-popup.tip-above::after {
+        top: -10px;
+        border-width: 0 10px 10px 10px;
+        border-color: transparent transparent red transparent;
+      }
+      .jquery-datepicker.is-popup.tip-above::before {
+        top: -11px;
+      }
+      .jquery-datepicker.is-popup.tip-right::before,
+      .jquery-datepicker.is-popup.tip-right::after {
+        right: 20px;
+      }
+      .jquery-datepicker.is-popup.tip-left::before,
+      .jquery-datepicker.is-popup.tip-left::after {
+        left: 20px;
+      }
+      .jquery-datepicker.theme-light {
+        border: 1px solid #CCCCCC;
+        background: #FFFFFF;
+        color: #222222;
+      }
+      .jquery-datepicker.theme-light .datepicker-box {
+        background: #FFFFFF;
+      }
+      .jquery-datepicker.theme-light .datepicker-box .box-row.row-header {
+        color: #626262;
+        border-bottom: 1px solid rgba(204, 204, 204, 0.5);
+      }
+      .jquery-datepicker.theme-light .datepicker-box .box-row.row-header .header-title:hover {
+        color: #222222;
+      }
+      .jquery-datepicker.theme-light .datepicker-box .box-row.row-header .header-actions .header-action.action-down::after {
+        border-color: transparent #CCCCCC transparent transparent;
+      }
+      .jquery-datepicker.theme-light .datepicker-box .box-row.row-header .header-actions .header-action.action-up::after {
+        border-color: transparent transparent transparent #CCCCCC;
+      }
+      .jquery-datepicker.theme-light .datepicker-box .box-row.row-header .header-actions .header-action.action-down:hover::after {
+        border-color: transparent #222222 transparent transparent;
+      }
+      .jquery-datepicker.theme-light .datepicker-box .box-row.row-header .header-actions .header-action.action-up:hover::after {
+        border-color: transparent transparent transparent #222222;
+      }
+      .jquery-datepicker.theme-light .datepicker-box .box-row.row-days {
+        color: #7b7b7b;
+      }
+      .jquery-datepicker.theme-light .datepicker-box .box-row.row-week .box-cell:hover {
+        background: #EEEEEE;
+        color: #222222;
+      }
+      .jquery-datepicker.theme-light .datepicker-box .box-row.row-week .box-cell.cell-grayed {
+        background: transparent;
+        color: #CCCCCC;
+      }
+      .jquery-datepicker.theme-light .datepicker-box .box-row.row-week .box-cell.cell-today {
+        background: #FFFFFF;
+        color: #12AFCB;
+      }
+      .jquery-datepicker.theme-light .datepicker-box .box-row.row-week .box-cell.cell-today:hover {
+        background: #EEEEEE;
+        color: #222222;
+      }
+      .jquery-datepicker.theme-light .datepicker-box .box-row.row-week .box-cell.cell-marked {
+        background: rgba(255, 213, 79, 0.2);
+        color: #cf9d00;
+      }
+      .jquery-datepicker.theme-light .datepicker-box .box-row.row-week .box-cell.cell-marked:hover {
+        background: #EEEEEE;
+        color: #222222;
+      }
+      .jquery-datepicker.theme-light .datepicker-box .box-row.row-week .box-cell.cell-forbidden {
+        background: rgba(229, 115, 115, 0.2);
+        color: #b72222;
+      }
+      .jquery-datepicker.theme-light .datepicker-box .box-row.row-week .box-cell.cell-selected {
+        background: #12AFCB;
+        color: #FFFFFF;
+      }
+      .jquery-datepicker.theme-light .datepicker-box .box-row.row-week .box-cell.cell-selected:hover {
+        background: #12AFCB;
+        color: #FFFFFF;
+      }
+      .jquery-datepicker.theme-light.tip-below::before {
+        border-color: #CCCCCC transparent transparent transparent;
+      }
+      .jquery-datepicker.theme-light.tip-above::before {
+        border-color: transparent transparent #CCCCCC transparent;
+      }
+      .jquery-datepicker.theme-light.tip-below::after {
+        border-color: #FFFFFF transparent transparent transparent;
+      }
+      .jquery-datepicker.theme-light.tip-above::after {
+        border-color: transparent transparent #FFFFFF transparent;
+      }
+      .jquery-datepicker.theme-dark {
+        border: 1px solid #323232;
+        background: #1B1B1B;
+        color: #FFFFFF;
+      }
+      .jquery-datepicker.theme-dark .datepicker-box {
+        background: #1B1B1B;
+      }
+      .jquery-datepicker.theme-dark .datepicker-box .box-row.row-header {
+        color: rgba(255, 255, 255, 0.5);
+        border-bottom: 1px solid rgba(50, 50, 50, 0.75);
+      }
+      .jquery-datepicker.theme-dark .datepicker-box .box-row.row-header .header-title:hover {
+        color: #FFFFFF;
+      }
+      .jquery-datepicker.theme-dark .datepicker-box .box-row.row-header .header-actions .header-action.action-down::after {
+        border-color: transparent #323232 transparent transparent;
+      }
+      .jquery-datepicker.theme-dark .datepicker-box .box-row.row-header .header-actions .header-action.action-up::after {
+        border-color: transparent transparent transparent #323232;
+      }
+      .jquery-datepicker.theme-dark .datepicker-box .box-row.row-header .header-actions .header-action.action-down:hover::after {
+        border-color: transparent #FFFFFF transparent transparent;
+      }
+      .jquery-datepicker.theme-dark .datepicker-box .box-row.row-header .header-actions .header-action.action-up:hover::after {
+        border-color: transparent transparent transparent #FFFFFF;
+      }
+      .jquery-datepicker.theme-dark .datepicker-box .box-row.row-days {
+        color: rgba(255, 255, 255, 0.35);
+      }
+      .jquery-datepicker.theme-dark .datepicker-box .box-row.row-week .box-cell:hover {
+        background: #323232;
+        color: #FFFFFF;
+      }
+      .jquery-datepicker.theme-dark .datepicker-box .box-row.row-week .box-cell.cell-grayed {
+        background: transparent;
+        color: #323232;
+      }
+      .jquery-datepicker.theme-dark .datepicker-box .box-row.row-week .box-cell.cell-today {
+        background: #1B1B1B;
+        color: #12AFCB;
+      }
+      .jquery-datepicker.theme-dark .datepicker-box .box-row.row-week .box-cell.cell-today:hover {
+        background: #323232;
+        color: #FFFFFF;
+      }
+      .jquery-datepicker.theme-dark .datepicker-box .box-row.row-week .box-cell.cell-marked {
+        background: rgba(255, 213, 79, 0.05);
+        color: #cf9d00;
+      }
+      .jquery-datepicker.theme-dark .datepicker-box .box-row.row-week .box-cell.cell-marked:hover {
+        background: #323232;
+        color: #FFFFFF;
+      }
+      .jquery-datepicker.theme-dark .datepicker-box .box-row.row-week .box-cell.cell-forbidden {
+        background: rgba(229, 115, 115, 0.05);
+        color: #b72222;
+      }
+      .jquery-datepicker.theme-dark .datepicker-box .box-row.row-week .box-cell.cell-selected {
+        background: #12AFCB;
+        color: #FFFFFF;
+      }
+      .jquery-datepicker.theme-dark .datepicker-box .box-row.row-week .box-cell.cell-selected:hover {
+        background: #12AFCB;
+        color: #FFFFFF;
+      }
+      .jquery-datepicker.theme-dark.tip-below::before {
+        border-color: #323232 transparent transparent transparent;
+      }
+      .jquery-datepicker.theme-dark.tip-above::before {
+        border-color: transparent transparent #323232 transparent;
+      }
+      .jquery-datepicker.theme-dark.tip-below::after {
+        border-color: #1B1B1B transparent transparent transparent;
+      }
+      .jquery-datepicker.theme-dark.tip-above::after {
+        border-color: transparent transparent #1B1B1B transparent;
+      }
+      
+
+   
+
+
+
+
+    
+
+    /* -------------------  RESPOSNIVE DESGIN -------------------  */
+    
+     
+    
+	@media (min-width: 2560px) {
+
+		.contact-informations h2{
+			
+		}
+
+		#text-content .txt-right h2 {
+			font-size: 34px;
+		}
+
+		.list-fea h6 {
+			font-size: 17px;
+		}
+
+		#recover-process{
+			min-height: 1080px;
+		}
+
+		#text-content{
+			min-height: 1340px;
+			padding-top: 250px;
+		}
+		
+		.l-side h2{
+			font-size: 35px;
+			margin-top: 80px;
+		}
+		.split-text h5{
+		width: 35%;
+		}
+
+		.circle {
+		top: 35px;
+		}
+
+		.ringring {
+		top: 28px;
+		}
+
+		.txt-services h3{
+		width: 42%;
+		}
+
+		.l-side h3{
+		width: 49%;
+		}
+
+		.l-side p{
+		padding-right:0;
+		font-size: 17px;
+		}
+
+		#recover-process .l-side {
+			padding-right: 8%;
+			padding-left: 7%;
+		}
+
+		#text-content .txt-right {
+			padding-left: 4%;
+			padding-right: 11%;
+			
+		}
+
+		.box-process img {
+			position: absolute;
+			top: 20px;
+			left: -6px;
+		}
+
+		.box-process h4{
+		font-size: 20px;
+		margin-top: 20px;
+		}
+
+		.box-process .small-text {
+		font-size: 17px;
+		}
+
+		.split-text {
+		padding-left: 7%;
+		}
+
+		#text-content .txt-right h3{
+		width: 54%;
+		}
+
+		.box-fea h4 {
+			font-size: 18px;
+		}
+
+		.box-fea p {
+			font-size: 16px;
+		}
+
+		.box-fea{
+			padding-left: 40px;
+			padding-right: 40px;
+		}
+
+		.l-title {
+			font-size: 21px;
+		}
+
+		.crypto-scam {
+			
+		}
+
+		.txt-services h2{
+			font-size: 35px;
+			text-align: center;
+		}
+
+		.txt-services p{
+			font-size: 17px;
+		}
+
+		.txt-services h6{
+			font-size: 17px;
+		}
+
+		.feedback .client-title{
+			font-size: 34px;
+			display: block;
+			float: left;
+			width: 100%;
+		}
+
+		.txt-image img {
+			display: block;
+			margin-top:0;
+			max-width: 58%;
+			
+		}
+
+		.card-impressions {
+			display: block;
+			background-color: rgba(2, 32, 68, 0.45);
+			border-radius: 6px;
+			max-width: 60%;
+		}
+
+		.txt-choose h2 {
+			font-size:px ;
+		}
+
+		.final-banner{
+			min-height: 1200px;
+		}
+	
+
+		.final-banner h2 {
+		font-size: 31px;
+		margin-bottom: 60px;
+		margin-top: 10px;
+		}
+
+		.final-banner h3 {
+			font-size: 19px;
+		}
+
+		.final-banner p{
+			font-size: 18px;
+			padding-right: 15%;
+		}
+
+		.final-banner .btn-get-money{
+			margin-top: 120px;
+			margin-left: 0;
+		}
+
+		.split-text h4 {
+			font-size: 32px;
+		}
+
+		.contact-form {
+			width: 70%;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		#file-a-complaint {
+		
+			
+		}
+
+		#file-a-complaint .contact-informations {
+			display: block;
+			padding-left: 265px;
+			padding-top: 50px;
+		}
+
+		#file-a-complaint .logo-trusted {
+			display: block;
+			position: absolute;
+			bottom: 30px;
+			right: 23%;
+		}
+
+		.final-banner .blue-text {
+			padding-left: 140px;
+			margin-top: 150px;
+		}
+
+
+
+
+	}/* End 2560px Responsive Design extra large  */
+    
+
+	@media only screen and (max-width: 1400px){
+
+		
+
+		.contact-informations h2 span{
+			font-size: 32px;
+		}
+
+		.contact-form .form-title{
+			font-size: 18px;
+		}
+
+		.contact-form{
+			width: 100%;
+		}
+
+		.crypto-scam .txt-services{
+			padding-left: 30px;
+		}
+
+		.txt-services h2{
+			font-size: 27px;
+		}
+
+		#text-content .txt-right h2 {
+			font-size: 23px;
+		}
+
+		.final-banner h2{
+			font-size: 26px;
+		}
+
+	}  /* End 1400  */
+
+
+
+	/* Responsive Design Changes fixes CSS Tablet  */
+
+    @media (max-width: 1200px) {
+		
+
+		.contact-form {
+			width: 85%;
+		}
+
+		.card-impressions .carousel-item {
+			height: 370px;
+		}
+		.box-process img {
+			position: absolute;
+			top: 8px;
+			left: -37px;
+			width: 55px;
+			height: 55px;
+		}
+
+		.txt-services h3 {
+		width: 100%;
+		font-size: 14px;
+		background-color: transparent;
+		}
+
+		.crypto-scam .txt-services{
+		padding-left: 30px;
+		}
+
+		.txt-services p {
+		font-size: 14px;;
+		}
+
+		.txt-services h2 {
+		font-size: 22px;
+		margin-bottom: 20px;
+		text-align: center;
+		}
+
+		#recover-process .l-side {
+		padding-right: 25px;
+		padding-left: 25px;
+		}
+
+		.l-side h3{
+		width: 100%;
+		font-size: 14px;
+		background-color: transparent;
+		}
+
+		.l-side h2 {
+		font-size: 22px;
+		margin-bottom: 25px;
+		text-align: center;
+		}
+
+		.l-side p{
+		font-size: 14px;
+		padding-right: 10px;
+		}
+
+		.box-process .small-text {
+			font-size: 13px;
+		}
+
+		#text-content .txt-right h3{
+			width: 100%;
+			background-color: transparent;
+		}
+
+
+		#text-content .txt-right h2{
+			font-size: 24px;
+			text-align: center;
+		 }
+ 
+		 #text-content .txt-right h6{
+			 margin-left: 0;
+			 font-size: 15px;
+		 }
+
+		 #text-content .txt-right p{
+			font-size: 14px;
+		 }
+
+		 .split-text{
+			 padding-left: 20px;
+		 }
+
+		 .split-text h6 {
+			 font-size: 14px;
+		 }
+
+		 .split-text p {
+			 font-size: 14px;
+		 }
+
+		 .split-text h4 {
+			 font-size: 24px;
+		 }
+
+		 .split-text h5 {
+			 font-size: 14px;
+		 }
+
+		 .final-banner h6{
+			 margin-left: 5px;
+			 font-size: 14px;
+		 }
+
+		 .final-banner .btn-get-money{
+			 font-size: 14px;
+			 display: block;
+			 margin-left: auto;
+			 margin-right: auto;
+			 width: 270px;
+			 float: none;
+		 }
+
+		 #trust-us {
+			padding-top: 59px;
+			padding-bottom: 120px;
+			background-color: #13273A;
+			padding-left: 20px;
+		}
+		 
+		 .final-banner h2 {
+            font-size: 23px;
+        }
+
+		.final-banner p {
+			font-size: 14px;
+		}
+
+		#trust-us .txt-headline-1 h4{
+            font-size: 27px;
+        }
+
+		.box-fea{
+			padding-left: 20px;
+		}
+
+		.box-process h4{
+		font-size: 14px;
+		}
+
+		.box-fea h4 {
+			font-size: 15px;
+		}
+
+
+		.btn-money-request {
+			font-size: 13px;
+		
+			margin-top: 35px;
+			display: block;
+			margin-right: auto;
+			margin-left: auto;
+			width: 270px;
+			padding-top: 17px;
+			padding-bottom: 17px;
+
+		}
+
+		.social-footer{
+			padding-left: 10px;
+		}
+
+		.phone-numbers li h4 {
+			
+			font-size: 13px;
+			margin-right: 30px;
+			margin-top: 19px;
+		}
+
+		.phone-numbers li a {
+			font-size: 14px;
+		}
+
+		.social-footer li p {
+			font-size: 11px;
+		}
+
+
+		.phone-numbers{
+			padding-left: 10px;
+		}
+
+
+        .contact-form .form-title {
+            font-size: 14px;
+        }
+
+        .contact-form .form-title span {
+            font-size: 10px;
+        }
+
+        .contact-form form {
+            padding-left: 10px;
+        }
+        
+        
+     
+        .contact-informations h2 span {
+            font-size: 28px;
+        }
+
+        .contact-informations h5{
+            font-size: 20px;
+        }
+
+        .txt-image img{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .txt-services h3 {
+            font-size: 16px;
+            margin-top: 10px;
+        }
+
+        .crypto-scam .txt-services{
+            margin-top: 20px;
+        }
+
+        .crypto-scam .txt-services{
+            padding-right: 10px;
+        }
+
+
+        .crypto-scam .how-work .second-tittle{
+            font-size: 28px;
+        }
+
+
+        #lost-money .intext{
+            padding-right: 10px;
+        }
+
+        #lost-money .intext h2{
+            font-size: 28px;
+        }
+
+        #lost-money .intext h3{
+            font-size: 16px;
+        }
+
+        #choose-us .text-box h3{
+            font-size: 17px;
+            margin-top: 10px;
+        }
+
+        #choose-us .text-box{
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
+
+
+        #trust-us .txt-headline-1 h5 {
+            font-size: 17px;
+            margin-bottom: 5px;
+        }
+
+
+        #text-content .txt-right {
+            padding-right: 20px;
+            padding-left: 20px;
+            margin-top: 0px;
+        }
+
+    
+
+
+    }/* end  max widht 1200px  */
+        
+
+    @media (max-width: 991px) {
+
+		
+
+		.crypto-scam{
+			padding-top: 60px;
+		}
+
+		#recover-process{
+			padding-top: 50px
+		}
+		
+        .contact-form form {
+            padding-left: 30px;
+        }
+
+		#file-a-complaint .logo-trusted {
+			display: block;
+			 position: relative;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 35px;
+			bottom: 0;right: 0%;
+		}
+
+		.box-process{
+			margin-top: 20px;
+		}
+
+		#text-content{
+			padding-top: 50px;
+		}
+        
+
+        .contact-form .form-title {
+            font-size: 21px;
+        }
+
+        .contact-form .form-title span {
+            font-size: 14px;
+        }
+
+
+
+        .txt-services h3{
+            text-align: center;
+        }
+
+        .txt-services h2{
+            text-align: center;
+        }
+
+
+        #lost-money .intext h2{
+            text-align: center;
+        }
+        
+        #lost-money .intext h3{
+            text-align: center;
+        }
+
+        .intext .btn-money{
+            display: block;
+            float: none;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+		.split-text h5{
+			text-align: center;
+			padding-left: 20px;
+			width: 40%;
+		}
+      
+
+
+        #text-content .txt-right h3{
+            text-align: center;
+        }
+
+        #text-content .txt-right h2{
+            text-align: center;
+			font-size: 22px;
+        }
+
+        #scammer-info .scam-text h2 {
+            font-size: 26px;
+        }
+
+		.split-text{
+			margin-top: 30px;
+		}
+
+
+        .adress-nav li .footer-quote{
+            font-size: 14px;
+            width: 265px;
+        }
+
+        .adress-nav li a {
+            font-size: 16px;
+        }
+
+		.nav-list .nav-item .btn-nav-book p{
+			float: none;
+		}
+
+		.nav-list .nav-item .btn-nav-book{
+			float: none;
+			display: block;
+			margin-right: auto;
+			margin-left: auto;
+			margin-top: 30px;
+		}
+		
+		.final-banner{
+			background-size: cover;
+		}
+
+		.final-banner h2 {
+			font-size: 22px;
+			margin-top: 35px;
+			text-align: center;
+		}
+
+		.box-fea{
+			max-width: 42%;
+		}
+
+		.box-fea h4 {
+			font-size: 14px;
+		}
+
+		.box-fea p {
+			font-size: 13px;
+		}
+
+		.phone-numbers li h4{
+			display: none;
+		}
+
+		.phone-numbers li a {
+			font-size: 9px;
+		}
+       
+       
+
+
+    }  /* end  max widht 991px  */
+	
+
+
+   
+
+    @media (max-width: 767.98px) {
+
+		
+        .contact-form{
+            margin-left: 10px;
+        }
+
+        .contact-form form {
+            padding-left: 10px;
+        }
+        
+     
+
+        .contact-top .text-contact h2{
+          
+            color: #d8b25b;
+        }
+
+        .contact-form .form-title {
+            font-size: 19px;
+        }
+
+        .crypto-scam .how-work .second-tittle {
+            font-size: 25px;
+        }
+
+        .txt-services h2 {
+            text-align: center; font-size: 25px;
+        }
+
+        .crypto-scam .how-work .first-tittle {
+            font-size: 17px;
+        }
+
+        #lost-money .intext h2 {
+            font-size: 25px;
+        }
+
+        #lost-money .intext p{
+            font-size: 15px;
+        }
+
+        #trust-us .txt-headline-1 h4 {
+            font-size: 27px;
+        }
+
+        .list-choose li h6 {
+            font-size: 15px;
+        }
+
+        #trust-us .act-txt {
+            font-size: 19px;
+        }
+
+        #text-content .txt-right h2 {
+            font-size: 25px;
+        }
+
+        .final-banner h2 {
+            font-size: 24px;
+        }
+
+        #scammer-info .scam-text h3{
+            font-size: 17px;
+        }
+
+        .adress-nav{
+            float: left;
+        }
+        
+
+
+        
+
+      
+
+
+
+	}   /* /End responsive Tablet size */
+
+
+
+
+	/* Responsive Design Changes adds CSS Mobile phones*/
+
+	
+	@media (max-width: 575.98px) { 
+		
+	
+		.contact-form {
+			width: 99%;
+			margin-bottom: 20px;
+		}
+
+		.crypto-scam .txt-image {
+			margin-top: 0;
+		}
+		#recover-process {
+			padding-top: 40px;
+			padding-bottom: 50px;
+			background: url(../img/background-lines.jpg) no-repeat;
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-position: center center;
+		}
+
+		.box-process .small-text {
+			font-size: 14px;
+			margin-bottom: 0;
+		}
+		
+		.crypto-scam{
+			background: url(../img/background-lines.jpg) no-repeat;
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-position: center center;
+			padding-bottom: 40px;
+		}
+
+		.txt-image img {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 10px;
+		}
+
+		.nav-list .nav-item .btn-nav-book{
+			width: 315px;
+		}
+
+		.nav-list .nav-item .btn-nav-book p{
+			font-size: 13px;
+		}
+
+		.txt-image .btn-go-money {
+			font-size: 13px;
+			width: 263px;
+			padding-top: 15px;
+			padding-bottom: 15px;
+			margin-bottom: 30px;
+		}
+
+		.l-side h2 {
+			font-size: 21px;
+			margin-bottom: 25px;
+			text-align: center;
+		}
+
+		.box-process img {
+			position: relative;
+			top: 0;
+			left:0;
+			width: 60px;
+			height: 60px;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		.box-process {
+		max-width: 95%;
+		margin-left: 20px;
+		padding-top: 40px;
+		padding-bottom: 20px;
+		margin-top: 20px;
+		margin-bottom: 0;
+		padding-top: 0;
+		}
+
+		.box-process h4 {
+		font-size: 15px;
+		}
+
+		.l-side p{
+		margin-bottom: 20px;
+		}
+
+	
+		#file-a-complaint{
+			background: url(../img/mobile-header-hero.jpg) no-repeat;
+			background-color: #01172d;
+		    background-size: contain;
+    		background-repeat: no-repeat !important;
+    		background-position: top;
+			margin-top: 73px;
+		}
+
+		.header-image {
+			display: none;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		#scammer-info .scam-text h3 {
+			font-size: 16px;
+			text-align: left;
+			color: #F55340;
+		}
+
+		.webpro-faq .faq-header{
+			padding-top: 4px;
+			padding-bottom: 4px;
+			padding-left:0;
+		}
+
+		.webpro-faq .faq-header .btn {
+			font-size: 13px;
+		}
+
+		.webpro-faq .faq-header .btn .fa {
+			float: right;
+			color: #706f6f;
+			margin-top: 1px;
+		}
+
+		#faq-section-ta .text-faq-box h4{
+			font-size: 16px;
+		}
+
+		#trust-us .txt-headline-1 h4 {
+			font-size: 20px;
+		}
+
+		#choose-us .text-box h3 {
+			font-size: 15px;
+			margin-top: 10px;
+		}
+
+		#lost-money .intext h3 {
+			font-size: 15px;
+			
+		}
+
+		.adress-nav {
+			float: left;
+			padding-left: 10px;
+			margin-top: 5px;
+		}
+
+		.phone-numbers li a {
+			font-size: 15px;
+		}
+
+		.sub-footer .copy{
+			padding-left: 10px;
+		}
+
+		#trust-us {
+			padding-bottom: 60px;
+			padding-left: 0;
+		}
+
+		.phone-numbers li{
+			display: block;
+			float: left;
+			width: 100%;
+			margin-bottom: 10px;
+		}
+
+		.phone-numbers li h4 {
+			display: block;
+		}
+
+		.adress-nav  img{
+			width: 80%;
+		}
+
+		#text-content .txt-right h6{
+			margin-bottom: 15px;
+			font-size: 13px;
+		}
+	
+		.split-text h5 {
+			text-align: center;
+			padding-left: 20px;
+			width: 95%;
+		}
+		
+		#text-content .txt-right h6 img{
+			margin-top: 4px;
+		}
+
+		.split-text h4 {
+			font-size: 24px;
+			text-align: center;
+		}
+
+		.money-refund li img {
+		display: block;
+		float: left;
+		margin-right: 10px;
+		width: 20px;
+		}
+
+		.split-text h6{
+			margin-left: 0;
+			margin-bottom: 12px;
+			font-size: 14px;
+		}
+		.intext .btn-money{
+			font-size: 14px;
+			padding-top: 15px;padding-bottom: 15px;
+			width: 255px;
+		}
+
+		.contact-informations h2 span {
+			font-size: 17px;
+			color: #fff;
+			
+		}
+
+		.contact-informations h2 {
+			font-size: 17px;
+			color: #fff;
+			margin-top: 80px;
+		}
+
+        .contact-form{
+            margin-left: 0;
+        }
+
+        .contact-form .form-title span {
+            font-size: 10px;
+        }
+
+
+		
+        .contact-form .form-title {
+            font-size: 14px;
+        }
+
+        .contact-form .form-group {
+            display: block;
+            float: left;
+            width: 94%;
+            margin-right: 25px;
+        }
+
+        .contact-form .button-submit{
+            font-size: 18px;
+        }
+
+
+     
+
+        .contact-form form {
+            padding-left: 10px;
+        }
+      
+        .txt-services h2 {
+            text-align: center;
+            font-size: 22px;
+        }
+
+        .txt-services p {
+            font-size: 14px;
+        }
+
+        .crypto-scam .how-work .second-tittle {
+            font-size: 20px;
+			margin-bottom: 20px;
+        }
+        
+        .crypto-scam .how-work .first-tittle {
+            font-size: 16px;
+			margin-top:20px;
+        }
+
+		.crypto-scam .how-work{
+			margin-bottom: 15px;
+		}
+
+       
+
+        #lost-money .intext h2 {
+            font-size: 21px;
+        }
+
+        #lost-money .intext p {
+            font-size: 14px;
+        }
+
+        #lost-money .intext p {
+            font-size: 14px;
+        }
+
+        #choose-us .text-box p {
+            font-size: 14px;   
+        }
+
+        #choose-us .text-box p{
+            padding-left:5px;
+        }
+
+        .money-refund li h6 {
+            font-size: 15px;
+        }
+
+        .mini-banner h2 {
+            font-size: 14px;
+            text-align: center;
+            padding-left: 0;
+        }
+
+		#trust-us .act-txt {
+			font-size: 17px;
+		}
+
+        #trust-us .txt-headline-1 h5 {
+            font-size: 15px;
+            margin-bottom: 5px;
+        }
+
+        .list-choose li {
+            width: 40%;
+			display: block;
+			float: left;
+        }
+
+        #trust-us .btn-request{
+            font-size: 15px;
+            width: 300px;
+        }
+
+        #text-content .txt-right h2 {
+            font-size: 20px;
+			text-align: left;
+        }
+
+        #text-content .txt-right h3 {
+            font-size: 16px;
+			text-align: left;
+        }
+
+		.l-title{
+			font-size: 15px;
+		}
+
+        #text-content .txt-right h5 {
+            font-size: 16px;
+        }
+
+		.trust-us .rate-trustpilot {
+			display: none;
+		}
+
+        #text-content .txt-right p{
+            font-size: 14px;
+        }
+
+		.feedback .client-title{
+		font-size: 23px;
+		text-align: center;
+		}
+
+		.final-banner h2 {
+		font-size: 17px;
+		margin-top: 5px;
+
+		}
+
+		.txt-choose h2{
+		font-size: 22px;
+		}
+
+
+		.trust-us .txt-choose {
+		padding-right: 20px;
+		padding-left: 20px;
+		margin-top: 0;
+		}
+
+		.trust-us{
+		padding-top: 30px;
+		}
+
+		.final-banner{
+		padding-left: 10px;padding-right: 10px;
+		background-color: #01172e;
+		padding-bottom: 30px;
+		display: block;
+		background-repeat: no-repeat;
+		position: relative;
+		background: url(../img/final-banner-reversed.jpg) no-repeat #01172e;
+
+		background-size: contain;
+
+		background-position: top;
+		margin-top: 0;
+		min-height: auto;
+
+		}
+
+		.final-banner h3{
+			font-size: 15px;
+		}
+
+		.final-banner .blue-text{
+			position: relative;
+			margin-top: 125px;
+			padding-left:20px;
+		}
+
+        .final-banner .btn-get-money{
+            font-size: 15px;
+            width: 300px;
+        }
+
+        #scammer-info .scam-text h2 {
+            font-size: 22px;
+			text-align: left;
+        }
+
+        #scammer-info .scam-text p {
+            font-size: 14px;
+        }
+
+		.card-impressions .carousel-item {
+			height: 400px;
+		}
+
+		.card-impressions .user-caption .user-picture {
+			position: absolute;
+			left: 45%;
+			top: -30px;
+		}
+
+		.final-banner h6{
+			margin-bottom: 15px;
+			line-height: 21px;
+		}
+
+        .fact-numbers li h6 {
+            font-size: 13px;
+        }
+
+        #lost-money .intext {
+            padding-right: 10px;
+            padding-left: 15px;
+        }
+
+		.card-impressions .user-caption .title{
+			font-size: 16px;
+		}
+
+    
+
+        #file-a-complaint .contact-informations {
+            padding-left: 20px;
+        }   
+
+		#faq-section-ta{
+			padding-bottom: 30px;
+		}
+        
+        .contact-informations h5 {
+            font-size: 15px;
+			color: #fff;
+			margin-top: 60px;
+			text-align: center;
+			display: none;
+        }
+
+		.social-footer {
+			width: 95%;
+		}
+
+        .contact-informations h6{
+            font-size: 14px;
+			color: #fff;
+        }
+
+		.contact-informations .border-small {
+			display: block;
+			width: 100px;
+			border: 2px solid #F55340;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+        .main-navigation .logo-header {
+            display: block;
+            float: none;
+            margin-left: auto;
+            margin-right: auto;
+			width: 150px !important;height:55px;
+			background:url(../img/mobile-logo.png) 0 0 no-repeat;
+            
+            margin-top: 10px;
+         
+        }
+
+        .nav-list .nav-item .btn-nav-book {
+            font-size: 14px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 325px;
+            padding-top: 9px;padding-bottom: 9px;
+			margin-top: 25px;
+        }
+
+		
+
+		#lost-money{
+			padding-top: 30px;
+			padding-bottom: 40px;
+		}
+
+		#choose-us .text-box h2 {
+			font-size: 20px;
+		}
+
+		#choose-us .choose-us-image {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 10px;
+		}
+
+		#file-a-complaint .logo-trusted{
+			margin-bottom: 25px;
+		}
+
+		.box-fea {
+			max-width: 93%;
+			margin-right: 0;
+			display: block;
+			margin-left:0;
+		}
+
+		.final-banner .blue-text .gif-money{
+			display:none;
+		}
+
+		.circle {
+			width: 12px;
+			height: 12px;		
+			position: absolute;
+			top: 30px;
+			left: 20px;
+		}
+
+		.ringring {
+			position: absolute;
+			left: 14px;
+			top: 24px;
+		}
+
+		.crypto-scam .txt-services {
+			padding-right: 30px;
+		}
+
+		#text-content{
+			padding-bottom: 60px;
+		}
+
+		#recover-process .l-side{
+			margin-top: 0;
+		}
+
+
+	} /* end mobile responsive media querie*/
+
