@@ -2533,19 +2533,19 @@
 	}
 
 	.list-of-services{
-		display: block;
-		float: left;
-		width: 100%;
-		padding-left:0;
-		margin-top: 80PX;
+	display: block;
+	float: left;
+	width: 100%;
+	padding-left:0;
+	margin-top: 80PX;
 	}
 
 	.list-of-services li{
-		width: 45%;
-		display: block;
-		float: left;
-		margin-right: 40px;
-		margin-bottom: 60px;
+	width: 45%;
+	display: block;
+	float: left;
+	margin-right: 40px;
+	margin-bottom: 60px;
 	}
 
 	.list-of-services li .thumb-service{
@@ -2557,22 +2557,22 @@
 	}
 
 	.list-of-services li .in{
-		padding: 30px;
-		background-color: #F4F7FB;
-		border: 1px solid #E5E2E2;
+	padding: 30px;
+	background-color: #F4F7FB;
+	border: 1px solid #E5E2E2;
 	}
 
 	.list-of-services li .in h3{
 	color: #343333;
-    font-size: 20px;
-    text-align: center;
-    margin-top: 10px;
-    margin-bottom: 30px;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
-    text-transform: uppercase;
+	font-size: 20px;
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
 	display: block;
-    text-decoration: none;
+	text-decoration: none;
 	}
 
 	.list-of-services li .in h3 a{
@@ -2617,11 +2617,443 @@
 	}
 
 	.list-of-services li .in  .btn-text .fa{
-		margin-left: 10px;
+	margin-left: 10px;
 	}
 
+
+
+	/* ---------- INNER OUR SERVICES PAGES --------------------------- */
+
+
+	#content-services{
+	padding-top: 90px;
+	padding-bottom: 50px;
+	}
+
+	.top-text-1 h1{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	color: #343333;
+	font-size: 26px;
+	text-align: center;
+	margin-top: 2px;
+	margin-bottom: 40px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	}
+
+	.top-text-1 p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 500;
+	color: #1E2022;
+	font-size: 16px;
+	text-align: left;
+	line-height: 25px;
+	}
+
+
+	.box-scams{
+	background-color: #F9FCFC;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	box-shadow: 2px 2px 2px 2px rgb(0 0 0 / 20%);
+	margin-top: 60px;
+	border-radius: 30px;
+	}
+
+	.box-scams .scam-image{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+	.scam-right{
+	margin-top: 20px;
+	padding-right: 30px;
+	}
+
+
+	.scam-right .service-action{
+
+		font-weight: 500;
+		color: #fff;
+		font-size: 15px;
+		letter-spacing: 1px;
+		background: transparent;
+		width: 300px;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		margin-top: 70px;
+		background-color: #F4B146;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		border-radius: 30px;
+		margin-bottom: 20px;
+		}
 	
-	/* FOOTER */
+		.scam-right .service-action .fa{
+		margin-left: 10px;
+		}
+
+	.scam-right h2{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	color: #343333;
+	font-size: 24px;
+	text-align: center;
+	margin-top: 2px;
+	margin-bottom: 40px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	}	
+
+	.scam-right p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 500;
+	color: #1E2022;
+	font-size: 16px;
+	text-align: left;
+	line-height: 25px;
+	}
+
+	.bolder-txt {
+	padding-left: 20px;
+	display: block;
+	float: left;
+	}
+
+	.bolder-txt li{
+	float: left;
+	width: 100%;
+	margin-bottom: 5px;
+	color: #175EA5;
+	}
+
+	.bolder-txt h6 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	color: #1E2022;
+	font-size: 16px;
+	text-align: left;
+	line-height: 22px;
+	margin-bottom: 1px;
+	}
+
+
+	.about-scam{
+	padding-top: 50px;
+	padding-bottom: 0;
+	}
+
+	.about-scam h2{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	color: #343333;
+	font-size: 26px;
+	text-align: center;
+	margin-top: 2px;
+	margin-bottom: 40px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	}
+
+	.about-scam .small-text-top{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 500;
+	color: #1E2022;
+	font-size: 16px;
+	text-align: left;
+	line-height: 25px;
+	}	
+	
+
+
+	.comman-list{
+	display: block;
+	float: left;
+	width: 100%;
+	margin-top: 25px;
+
+	}
+
+	.comman-list li{
+	float: left;
+	width: 100%;
+	margin-bottom: 5px;
+	color: #175EA5;
+	
+	}
+
+	.comman-list li h6{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	color: #175EA5;
+	font-size: 16px;
+	text-align: left;
+	line-height: 25px;
+	
+	}
+
+	.comman-list li::before{
+	color: #000;
+	}
+
+	.comman-list li h6 span{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 500;
+	color: #343333;
+	font-size: 16px;
+	text-align: left;
+
+	}
+
+
+		
+	/* ---- Inenr Services Page steps to reclaim */
+
+	#ser-process{
+	padding-top: 90px;
+	padding-bottom: 50px;
+	padding-left: 90px;
+	}
+
+
+	#ser-process h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	color: #343333;
+	font-size: 26px;
+	text-align: center;
+	margin-top: 2px;
+	margin-bottom: 60px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	line-height: 35px;
+	}
+
+
+	.reclaim-step {
+	display: block;
+	float: left;
+	width: 100%;
+	padding-left: 0%;
+	}
+
+	.reclaim-step  li{
+	display: block;
+	float: left;
+	width: 44%;
+	margin-bottom: 35px;
+	box-shadow: 1px 1px 1px 1px rgb(0 0 0 / 20%);
+	height: 155px;
+	margin-right: 40px;
+	margin-bottom: 40px;
+	border-top-left-radius: 20px;
+	
+	border-bottom-right-radius: 20px;
+
+	}
+
+	.reclaim-step  li .first-color {
+	background-color: #175EA5;
+	display: block;
+	float: left;
+	width: 45%;
+	padding-top:50px;
+	padding-bottom: 50px;
+	padding-left: 30px;
+	position: relative;
+	}
+
+	.reclaim-step  li .first-color .s-number{
+		top:-2px;
+    left: 50%;
+    transform: translate(-50%,0);
+    position: absolute;
+    z-index: 999;
+	}
+
+
+	.reclaim-step  li .first-color img{
+	
+	display: block;
+	float: left;
+	}
+
+	.reclaim-step  li .first-color h5{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	color: #fff;
+	font-size: 15px;
+	text-align: center;
+	margin-top: 20px;
+	width: 100%;
+	
+	}
+
+
+	.reclaim-step  li .white-text{
+	background-color: #FFFEFC;
+	display: block;
+	float: left;
+	width: 55%;
+	}
+
+	.reclaim-step  li .white-text  p{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 500;
+	color: #1E2022;
+	font-size: 15px;
+	text-align: left;
+	line-height: 20px;
+	padding-left: 40px;
+	padding-top: 40px;
+	padding-right: 20px;
+	}
+
+
+	/* ===============  Banner on bottom  */
+
+	.final-bt-banner{
+	background-color: #F9FCFC;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	box-shadow: 2px 2px 2px 2px rgb(0 0 0 / 20%);
+	margin-bottom: 100px;
+	border-radius: 30px;
+	}
+
+	.final-bt-banner .bnr-image{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+	.final-lefts{
+	margin-top: 30px;
+	padding-right: 30px;
+	}
+
+	.final-left h1{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 800;
+	color: #343333;
+	font-size: 27px;
+	text-align: center;
+	margin-top: 2px;
+	margin-bottom: 40px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	line-height: 35px;
+	text-transform: uppercase;
+	}	
+
+	.final-left h3{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	color: #343333;
+	font-size: 20px;
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+
+	}	
+	
+
+
+	.final-cta{
+	display: block;
+	width: 100%;
+	float: left;
+	padding-left: 0;
+	}
+
+	.final-cta li{
+	display: block;
+	width: 47%;
+	float: left;
+	margin-right: 20px;
+	}
+
+	.final-cta li:last-child{
+	margin-right: 0;
+	}
+
+
+	.final-cta li .btn-return{
+	font-weight: 500;
+	color: #fff;
+	font-size: 14px;
+	letter-spacing: 1px;
+	background: transparent;
+	width: 240px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: #F4B146;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+	margin-bottom: 20px;
+	margin-top: 35px;
+	}
+
+	.final-cta li .btn-return .fa{
+	margin-left: 8px;
+	}
+
+
+	.final-cta li .btn-phone-call {
+	font-weight: 700;
+	color: #fff;
+	font-size: 17px;
+	letter-spacing: 1px;
+	background: transparent;
+	width: 250px;
+	padding-top: 13px;
+	padding-bottom: 14px;
+	background-color: #F4B146;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 30px;
+	margin-bottom: 20px;
+	margin-top: 35px;
+	position: relative;
+	text-align: center;
+	}
+
+	.final-cta li .img-ph-2{
+	position: absolute;
+	top: -1px;
+	left: -14px;
+	width: 55px;
+
+	}
+
+
+
+
+
+
+
+
+	/* ===============  FOOTER */
 
 	footer{
 	background:#01172d;
