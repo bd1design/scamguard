@@ -2579,6 +2579,11 @@
 	text-transform: uppercase;
 	text-decoration: none;
 	display: block;
+	transition: all .2s ease-in-out; 
+	}
+
+	.list-of-services li .in h3 a:hover{
+		transform: scale(1.1);
 	}
 
 	.list-of-services li .in p {
@@ -2611,6 +2616,10 @@
 
 	.list-of-services li .in  .btn-text .fa{
 	margin-left: 10px;
+	}
+
+	.list-of-services li .in  .btn-text:hover{
+		color: #0c4d8d;	
 	}
 
 
@@ -3803,11 +3812,79 @@
 
 		
 
+		.reclaim-step li .first-color {
+			padding-left: 20px;
+		}
+
+		.reclaim-step li {
+			height: 157px;
+		}
+
+		.services-hero h2 span {
+			font-size: 30px;
+		}
+
+		/* Home Page 1400  */
+
+		.txt-services h2 {
+			
+			margin-bottom: 20px;
+			text-align: left;
+		}
+
+
+		.list-of-services {
+			padding-left: 65px;
+		
+		}
+
+		#splited-banner .call-agent{
+			top: 60px;
+			left: 50%;
+			transform: translate(-50%,0);
+			position:absolute;
+			z-index: 999;
+			max-width: 20% !important;
+		}
+
+		.second-text{
+			padding-left: 70px;
+		}
+
+		.crypto-scam{
+			padding-bottom: 70px;
+		}
+
 		.contact-informations h2 span{
 			font-size: 32px;
 		}
 
+		.inside-text {
+			padding-right: 55px;
+			padding-left: 55px;
+		}
+
+		#clients{
+			padding-top: 50px;
+		}
+
+		#clients h2{
+			font-size: 30px;
+		}
+
+		.in-text h3{
+			font-size: 18px;
+		}
+
+		.trust-text h2{
+			font-size: 25px;
+		}
+
 		.contact-form .form-title{
+			font-size: 18px;
+		}
+
+		.trust-text h3{
 			font-size: 18px;
 		}
 
@@ -3839,276 +3916,309 @@
 
     @media (max-width: 1200px) {
 		
+	
 
-		.contact-form {
-			width: 85%;
+		.services-hero h2 span {
+			font-size: 27px;
 		}
 
-		.card-impressions .carousel-item {
-			height: 370px;
+
+		.reclaim-step li .white-text p {
+		
+			font-size: 14px;
+			line-height: 20px;
+			padding-left: 20px;
+			padding-top: 20px;
+			padding-right: 20px;
 		}
-		.box-process img {
+
+		.reclaim-step li .first-color h5 {
+			font-size: 14px;
+		}
+
+		#our-services-cover .services-hero {
+			display: block;
+			padding-left: 30px;
+			margin-top: 49px;
+		}
+
+		.final-left h1 {
+			font-size: 24px;
+		}
+
+		#ser-process {
+			padding-left: 30px;
+		}
+
+		.services-hero h2 span {
+			font-size: 30px;
+		}
+
+		.reclaim-step li {
+			height: 201px;
+		}
+
+		.reclaim-step li .first-color img {
+			display: block;
+			float: none;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		.c-text-2 h2 {
+			font-size: 25px;
+		}
+
+		.section-trust{
+			padding-top: 30px;
+		}
+
+		.c-text-2 h2 {
+			font-size: 22px;
+		}
+
+		#about-second {
+			padding-bottom: 50px;
+			padding-top: 20px;
+		}
+
+		.c-text-2 {
+			margin-top: 0px;
+		}
+
+		.section-trust p{
+			padding-right: 0;
+		}
+
+		.blue-side-banner h2 {
+			font-size: 22px;
+		}
+
+		.gray-side-banner h2 {
+			font-size: 22px;
+
+		}
+
+
+		#splited-banner .call-agent {
+			top: -75px;
+			left: 50%;
+			transform: translate(-50%,0);
 			position: absolute;
-			top: 8px;
-			left: -37px;
-			width: 55px;
-			height: 55px;
+			z-index: 999;
+			max-width: 15%;
 		}
 
-		.txt-services h3 {
-		width: 100%;
-		font-size: 14px;
-		background-color: transparent;
+
+		.section-trust .blue-text {
+			padding-left: 30px;
 		}
 
-		.crypto-scam .txt-services{
-		padding-left: 30px;
+		.c-text-2 p {
+			font-size: 15px;
+			text-align: left;
+			line-height: 22px;
+			padding-right: 30px;
+		}
+
+		#about-second{
+			padding-bottom: 50px;
+		}
+
+		.main-navigation .nav-list .nav-link{
+		font-size: 10px;
+		margin-right: 8px;
+		}
+
+		.nav-list .dropdown .dropdown-toggle {
+		position: absolute;
+		right: -3px;
+		bottom: 14px;
+		}
+		.nav-list .nav-item .btn-nav-book p {
+		font-size: 10px;
+		}
+
+		.nav-list .nav-item .btn-nav-book{
+		width: 170px;
+		}
+
+		.contact-informations h2{
+		font-size: 30px;
+
+		}
+
+		.contact-informations h5 {
+		font-size: 24px;
+		}
+
+		.contact-informations h2 span {
+		font-size: 30px;
+
+		}
+
+		.button-go-1 {
+		font-size: 15px;
+		width: 280px;
+		padding-top: 20px;
+		padding-bottom: 19px;
+		margin-top: 80px;
+		background-color: #F4B146;
+		margin-bottom: 20px;
+		}
+
+		#home-services .h-text {
+		padding-left: 60px;
+		}
+
+		.h-text h1{
+		font-size: 28px;
+		}
+
+		.h-text h4 {
+
+		font-size: 18px;
+		}
+
+		.h-text p {
+
+		font-size: 16px;
+		text-align: left;
+		line-height: 25px;
+		}
+
+		.second-text p {
+
+		font-size: 15px;
+		line-height: 25px;
+		}
+
+		.steps-box .top h4 {
+		font-size: 15px;
+		}
+
+		.second-text h1{
+		font-size: 29px;
+		}
+
+		.second-text h1 {
+		font-size: 29px;
+		margin-bottom: 30px;
+		}
+
+		.second-text h4 {
+		font-size: 18px;
 		}
 
 		.txt-services p {
-		font-size: 14px;;
+
+		font-size: 15px;
+		line-height: 25px;
 		}
 
 		.txt-services h2 {
-		font-size: 22px;
-		margin-bottom: 20px;
-		text-align: center;
+		font-size: 24px;
 		}
 
-		#recover-process .l-side {
-		padding-right: 25px;
-		padding-left: 25px;
+		.crypto-scam {
+		padding-bottom: 70px;
+		padding-top: 50px;
 		}
 
-		.l-side h3{
+		.contact-form {
 		width: 100%;
-		font-size: 14px;
-		background-color: transparent;
 		}
 
-		.l-side h2 {
+		.contact-form .form-title {
+		font-size: 15px;
+		}
+
+		.car-services .title-ser a {
+		font-size: 16px;
+		}
+
+		.car-services .title-ser a {
+		font-size: 14px;
+		}
+
+		.inside-text {
+		padding-right: 40px;
+		padding-left:40px;
+		}
+
+		.in-text h3 {
+		font-size: 15px;
+		}
+
+		.in-text h2 {
+		font-size: 25px;
+		margin-bottom: 30px;
+		}
+
+		.in-text {
+		margin-top: 0px;
+		}
+
+		.in-text p {
+		font-size: 15px;
+		line-height: 20px;
+		}
+
+		.trust-text h2 {
 		font-size: 22px;
-		margin-bottom: 25px;
-		text-align: center;
 		}
 
-		.l-side p{
-		font-size: 14px;
-		padding-right: 10px;
+		.trust-text p {
+		font-size: 15px;
+		text-align: left;
+		line-height: 20px;
 		}
 
-		.box-process .small-text {
-			font-size: 13px;
+		.home-row {
+		padding-left: 40px;
+		padding-right: 40px;
 		}
 
-		#text-content .txt-right h3{
-			width: 100%;
-			background-color: transparent;
+		.list-choose{
+		margin-top: 40px;
+		padding-left: 0;
 		}
 
-
-		#text-content .txt-right h2{
-			font-size: 24px;
-			text-align: center;
-		 }
- 
-		 #text-content .txt-right h6{
-			 margin-left: 0;
-			 font-size: 15px;
-		 }
-
-		 #text-content .txt-right p{
-			font-size: 14px;
-		 }
-
-		 .split-text{
-			 padding-left: 20px;
-		 }
-
-		 .split-text h6 {
-			 font-size: 14px;
-		 }
-
-		 .split-text p {
-			 font-size: 14px;
-		 }
-
-		 .split-text h4 {
-			 font-size: 24px;
-		 }
-
-		 .split-text h5 {
-			 font-size: 14px;
-		 }
-
-		 .final-banner h6{
-			 margin-left: 5px;
-			 font-size: 14px;
-		 }
-
-		 .final-banner .btn-get-money{
-			 font-size: 14px;
-			 display: block;
-			 margin-left: auto;
-			 margin-right: auto;
-			 width: 270px;
-			 float: none;
-		 }
-
-		 #trust-us {
-			padding-top: 59px;
-			padding-bottom: 120px;
-			background-color: #13273A;
-			padding-left: 20px;
-		}
-		 
-		 .final-banner h2 {
-            font-size: 23px;
-        }
-
-		.final-banner p {
-			font-size: 14px;
-		}
-
-		#trust-us .txt-headline-1 h4{
-            font-size: 27px;
-        }
-
-		.box-fea{
-			padding-left: 20px;
-		}
-
-		.box-process h4{
+		.list-choose li h6 {
 		font-size: 14px;
 		}
 
-		.box-fea h4 {
-			font-size: 15px;
+		.button-go-now {
+		font-size: 14px;
+		width: 265px;
+		padding-top: 18px;
+		padding-bottom: 18px;
+		margin-top: 15px;
+		display: block;
+		margin-bottom: 20px;
+		float: left;
+		margin-left: 30px;
 		}
 
-
-		.btn-money-request {
-			font-size: 13px;
-		
-			margin-top: 35px;
-			display: block;
-			margin-right: auto;
-			margin-left: auto;
-			width: 270px;
-			padding-top: 17px;
-			padding-bottom: 17px;
-
+		#clients .c-row {
+		padding-left: 30px;
+		padding-right: 30px;
 		}
 
-		.social-footer{
-			padding-left: 10px;
+		.client-review h6{
+		font-size: 14px;
 		}
 
-		.phone-numbers li h4 {
-			
-			font-size: 13px;
-			margin-right: 30px;
-			margin-top: 19px;
+		.client-review h4{
+		font-size: 16px;
 		}
 
-		.phone-numbers li a {
-			font-size: 14px;
+		.client-review .img-star {
+		position: absolute;
+		bottom: 0px;
+		right: 0;
+		left: 30px;
 		}
-
-		.social-footer li p {
-			font-size: 11px;
-		}
-
-
-		.phone-numbers{
-			padding-left: 10px;
-		}
-
-
-        .contact-form .form-title {
-            font-size: 14px;
-        }
-
-        .contact-form .form-title span {
-            font-size: 10px;
-        }
-
-        .contact-form form {
-            padding-left: 10px;
-        }
-        
-        
-     
-        .contact-informations h2 span {
-            font-size: 28px;
-        }
-
-        .contact-informations h5{
-            font-size: 20px;
-        }
-
-        .txt-image img{
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        .txt-services h3 {
-            font-size: 16px;
-            margin-top: 10px;
-        }
-
-        .crypto-scam .txt-services{
-            margin-top: 20px;
-        }
-
-        .crypto-scam .txt-services{
-            padding-right: 10px;
-        }
-
-
-        .crypto-scam .how-work .second-tittle{
-            font-size: 28px;
-        }
-
-
-        #lost-money .intext{
-            padding-right: 10px;
-        }
-
-        #lost-money .intext h2{
-            font-size: 28px;
-        }
-
-        #lost-money .intext h3{
-            font-size: 16px;
-        }
-
-        #choose-us .text-box h3{
-            font-size: 17px;
-            margin-top: 10px;
-        }
-
-        #choose-us .text-box{
-            padding-left: 15px;
-            padding-right: 15px;
-        }
-
-
-
-        #trust-us .txt-headline-1 h5 {
-            font-size: 17px;
-            margin-bottom: 5px;
-        }
-
-
-        #text-content .txt-right {
-            padding-right: 20px;
-            padding-left: 20px;
-            margin-top: 0px;
-        }
-
-    
 
 
     }/* end  max widht 1200px  */
@@ -4116,6 +4226,113 @@
 
     @media (max-width: 991px) {
 
+		
+		.right-sucess h1 {
+		font-size: 20px;
+		}
+		.funds-steps li {
+		display: block;
+		float: left;
+		width: 100%;
+		margin-bottom: 35px;
+		box-shadow: 1px 1px 1px 1px rgb(0 0 0 / 20%);
+		height: 305px;
+		}
+
+
+		.funds-steps li .s-color {
+		background-color: #175EA5;
+		display: block;
+		float: left;
+		width: 40%;
+		padding-top: 40px;
+		padding-bottom: 40px;
+		}
+		
+		.funds-steps li .d-text {
+			background-color: #FFFEFC;
+			display: block;
+			float: left;
+			width: 60%;
+		}
+		.funds-steps li .d-text p{
+			font-size: 14px;
+		}
+
+		.funds-steps li .s-color h5 {
+			font-size: 15px;
+		}
+
+
+		.reclaim-step li .first-color{
+			width: 100%;
+			padding-top: 20px;padding-bottom: 20px;
+		}
+
+		.scam-right {
+			margin-top: 20px;
+			padding-right: 30px;
+			padding-left: 40px;
+		}
+
+		.reclaim-step li {
+			height: auto;
+			padding-top: 0;
+			padding-bottom: 20px;
+		}
+
+		.list-of-services {
+			padding-left: 0px;
+		}
+
+		.reclaim-step li .first-color h5 {
+			font-size: 16px;
+		}
+
+		.final-left h1 {
+			font-size: 21px;
+		}
+
+		.reclaim-step li .white-text {
+			background-color: #FFFEFC;
+			display: block;
+			float: left;
+			width: 100%;
+		}
+
+		.final-cta li .btn-phone-call {
+			margin-top: 5px;
+		}
+
+		.final-cta li {
+			display: block;
+			width: 95%;
+			float: left;
+			margin-right: 20px;
+		}
+
+		.list-of-services li {
+			width: 44%;
+			display: block;
+			float: left;
+			margin-right: 20px;
+			margin-bottom: 60px;
+		}
+
+		.services-hero h2 span {
+			font-size: 24px;
+			line-height: 35px;
+		}
+
+		.services-hero h2  {
+			font-size: 24px;
+			line-height: 35px;
+		}
+
+		.list-of-services li .in h3 a{
+			font-size: 17px;
+		}
+		
 		
 
 		.crypto-scam{
@@ -4258,9 +4475,99 @@
 		.phone-numbers li a {
 			font-size: 9px;
 		}
+
+		.nav-list .dropdown .nav-dropdown {
+			border-radius: 0;
+			width: 100%;
+			padding-bottom: 0;
+			padding-top: 0;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		.nav-list .dropdown .nav-dropdown a p{
+			font-size: 12px;
+			text-align: center !important;
+		}
+
+		.nav-list .dropdown .nav-dropdown li{
+			padding-top: 12px;
+			padding-bottom: 12px;
+		}
        
+		.contact-form{
+			margin-left: 0;
+		}
        
 
+		.home-process {
+			margin-top: 60px;
+			padding-left: 30px;
+			padding-right: 30px;
+		}
+
+		.steps-box .top img {
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 0;
+			width: 45px;
+		}
+
+		.steps-box .top h4 {
+			font-size: 14px;
+		}
+
+		.steps-box .top{
+			padding-top: 20px;
+			padding-bottom: 20px
+		}
+
+		.steps-box .small-text{
+			font-size: 14px;
+			padding-left: 20px;
+			padding-right: 20px;
+		}
+
+		.trust-text .law-pic {
+			display: block;
+			margin-bottom: 50px;
+		}
+
+	
+		#clients {
+		padding-top: 0;
+		}
+
+		.client-review .img-star {
+		position: absolute;
+		bottom: 0px;
+		right: 0;
+		left: 70px;
+		}
+
+		.final-banner .blue-text {
+		padding-left: 30px;
+		}
+
+		.final-banner h2 {
+		font-size: 22px;
+		margin-top: 35px;
+		text-align: left;
+		}
+
+
+		.final-banner p {
+		font-family: 'Open Sans', sans-serif;
+		font-weight: 600;
+		color: #343333;
+		font-size: 15px;
+		text-align: left;
+		line-height: 24px;
+		margin-bottom: 15px;
+		padding-right: 165px;
+		}
 
     }  /* end  max widht 991px  */
 	
@@ -4270,7 +4577,102 @@
 
     @media (max-width: 767.98px) {
 
+	
+
+		#our-services-cover .services-hero {
+			display: block;
+			padding-left: 30px;
+			margin-top: 230px;
+		}
+
+		.reclaim-step li {
+			width: 41%;
+		}
+
+		.reclaim-step li .first-color{
+			padding-left: 0;
+		}
+
+		#our-services-cover {
+			background: url(../img/our-services-banner.jpg) no-repeat top center fixed;
+			position: relative;
+			padding: 0px 0 10px;
+			background-size: contain !important;
+			min-height: auto;
+			padding-top: 45px;
+			margin-top: 85px;
+			background-repeat: no-repeat !important;
+			background-position: top center !important;
+			background-attachment: fixed !important;
+		}
+
+		.list-of-services li {
+			width: 95%;
+			display: block;
+			float: left;
+			margin-right: auto;
+			margin-left: auto;
+			margin-bottom: 60px;
+		}
 		
+
+		.three-boxes {
+			max-width: 100%;
+			margin-bottom: 30px;
+		}
+
+		.list-of-services li .in .btn-text {
+			font-size: 14px;
+		}
+
+		
+
+		.list-of-services li .in .btn-text .fa {
+			margin-left: 5px;
+		}
+
+		#splited-banner .call-agent {
+			top: -115px;
+			left: 50%;
+			transform: translate(-50%,0);
+			position: absolute;
+			z-index: 999;
+			max-width: 25%;
+		}
+
+		.top-columns {
+			padding-bottom: 70px;
+			padding-top: 30px;
+		}
+
+		.list-of-services li .in .btn-text{
+			font-size: 15px;
+		}
+
+		#inner-services p {
+			font-family: 'Open Sans', sans-serif;
+			font-weight: 500;
+			color: #1E2022;
+			font-size: 14px;
+			text-align: left;
+			line-height: 23px;
+		}
+
+		.three-boxes .small-text-2{
+			font-size: 15px;
+		}
+
+		.contact-informations h2 span {
+			font-size: 25px;
+		}
+
+		.second-text {
+			padding-left: 30px;
+		}
+		.contact-informations h5 {
+			font-size: 21px;
+		}
+
         .contact-form{
             margin-left: 10px;
         }
@@ -4278,7 +4680,21 @@
         .contact-form form {
             padding-left: 10px;
         }
-        
+
+		.steps-box .top {
+		padding-top: 15px;
+		padding-bottom: 10px;
+		}
+
+		.steps-box {
+
+		max-width: 95% !important;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		margin-bottom: 20px;
+		}
+
      
 
         .contact-top .text-contact h2{
@@ -4337,7 +4753,39 @@
         .adress-nav{
             float: left;
         }
+
+		.car-services .text-review {
+			color: #4B4A4A;
+			font-size: 12px;
+			text-align: left;
+			margin-top: 20px;
+			margin-bottom: 20px;
+			padding-left: 10px;
+			padding-right: 10px;
+			padding-top: 0;
+		}
+
+
+		.car-services .title-ser a {
+			font-size: 12px;
+		}
+
+		#clients h2 {
+			font-size: 26px;
+		}
         
+
+		.client-review{
+			max-width: 95%!important;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			margin-bottom: 40px;
+		}
+
+		.client-review .img-star{
+			display: none;
+		}
 
 
         
@@ -4359,6 +4807,9 @@
 		
 		/* ---------    HOME PAGE : Mobile design responsive -----------   */
 
+		
+	
+		
 		.contact-form {
 		width: 99%;
 		margin-bottom: 20px;
@@ -4609,12 +5060,16 @@
 
 		.final-banner h3 {
 			font-size: 18px;
-			text-align: center;
+			text-align: left;
 		}
 
 		.final-banner h2 {
 			font-size: 24px;
 			margin-top: 10px;
+		}
+
+		.final-banner p{
+			padding-right: 30px;
 		}
 
 		.final-banner .btn-get-money{
