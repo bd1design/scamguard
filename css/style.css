@@ -4422,7 +4422,7 @@
 		}
 
 		.second-text {
-		padding-right: 20px;
+		padding-right: 30px;
 		padding-left: 20px;
 		margin-top: 20px;
 		}
@@ -4621,6 +4621,17 @@
 			margin-top: 40px;
 		}
 
+		.crypto-scam .txt-services {
+			padding-right: 20px;
+		}
+
+		.main-navigation .logo-header{
+			margin-left: 15px;
+		}
+
+		.navbar-collapse {
+			background-color: #fff;
+		}
 
 		/* About Us Page: Mobile Adaption */
 
@@ -4697,7 +4708,7 @@
 		 .cover-text-2 {
 			padding-right: 20px;
 			padding-left: 20px;
-			margin-top: 70px;
+			margin-top: 20px;
 		}
 
 		.cover-text-2 h3 img {
@@ -4752,8 +4763,271 @@
 			float: left;
 			margin-right: 0;
 		}
+		
+		.section-trust p{
+			padding-right: 20px;
+		}
+
+
+		.gray-side-banner .btn-phone {	
+		font-size: 22px;
+		letter-spacing: 1px;
+		width: 300px;
+		padding-top: 15px;
+		padding-bottom: 15px;
+
+		}
+		.gray-side-banner .img-ph {
+		position: absolute;
+		top: -1px;
+		left: -22px;
+		width: 65px;
+		}
+
+		#our-services-cover {
+		background: url(../img/our-services-banner.jpg) no-repeat top center fixed;
+		position: relative;
+		padding: 0px 0 10px;
+		background-size: contain !important;
+		min-height: auto;
+		padding-top: 45px;
+		margin-top: 85px;
+		background-repeat: no-repeat !important;
+		background-position: top center !important;
+		background-attachment: fixed !important;
+		}
+
+		#claim-process-text{
+			padding-left: 25px;
+			padding-right: 25px;
+		}
 	
+		 /* OUR SERVICES PAGE - Mobile*/
 	
-	
+
+		#our-services-cover .services-hero {
+		display: block;
+		padding-left: 20px;
+		margin-top: 85px;
+		}
+
+		.services-hero h2 {
+		font-size: 22px;
+		line-height: 30px;
+		}
+
+		.services-hero h2 span{
+		font-size: 22px;
+		line-height: 30px;
+		}
+
+		.main-form{
+		padding-left: 0;
+		}
+
+		.three-boxes{
+		max-width: 90%;
+		margin-bottom: 30px;
+		border-radius: 5px;
+		}
+
+		.top-columns{
+		padding-top: 40px;
+		padding-bottom: 30px;
+		}
+
+		#inner-services{
+		padding-top: 0;
+		}
+
+		#inner-services h1{
+		font-size: 26px;
+		}
+
+		.list-of-services{
+		margin-top: 40px;
+		}
+
+		.list-of-services li {
+		width: 90%;
+		display: block;
+		float: none;
+		margin-right: 0;
+		margin-bottom: 40px;
+		margin-left: auto;
+		margin-right: auto;
+		}
+
+		.services-hero h3 img {
+			display:none;
+		}
+
+		.services-hero h3 {
+			font-size:16px;
+		}
+
+		#content-services{
+			padding-top: 20px;
+		}
+
+		.top-text-1{
+			padding-left: 30px;
+			padding-right: 30px;
+		}
+
+		.top-text-1 h1{
+			font-size: 22px;
+		}
+
+		.box-scams{
+			border-radius: 0;
+		}
+
+		.scam-right h2 {
+			font-size: 21px;
+		}
+
+		.scam-right {
+			margin-top: 20px;
+			padding-right: 30px;
+			padding-left: 30px;
+		}
+
+		.about-scam{
+			padding-top: 20px;
+			padding-left: 30px;
+			padding-right: 30px;
+		}
+
+		.about-scam h2{
+			font-size: 21px;
+		}
+
+		.comman-list{
+			padding-left: 30px;
+		}
+
+		#ser-process {
+			padding-top: 30px;
+			padding-bottom: 50px;
+			padding-right: 25px;
+			padding-left: 25px;
+		}
+
+		#ser-process h2{
+			font-size: 19px;
+			line-height: 30px;
+			margin-top: 30px;
+		}
+
+		.reclaim-step li{
+			width: 100%;
+			margin-bottom: 30px;
+			display: block;
+			height: auto;
+			border-radius: 0;
+		}
+
+		.reclaim-step li .first-color {
+			display: block;
+			float: left;
+			width: 100%;
+			padding-top: 35px;
+			padding-bottom: 50px;
+			padding-left: 30px;
+			position: relative;
+		}
+
+		.reclaim-step li .white-text{
+			width: 100%;
+			padding-bottom: 50px;
+		}
+
+		.reclaim-step li .white-text p {
+			padding-left: 30px;
+		}
+
+
+		.final-bt-banner{
+			border-radius: 0;
+		}
+
+		.final-left h1{
+			font-size: 19px;
+			line-height: 30px;
+		}
+
+		.final-cta li {
+			width: 100%;
+			margin-right: 0;
+		}
+
+		.final-left h3 {
+			font-size: 17px;
+		}
+
+		#main-steps h1{
+			font-size: 18px;
+		}
+
+		#cover-process {
+			background: url(../img/cover-claim-process.jpg) no-repeat;
+			position: relative;
+			background-size: contain;
+			background-position: top center;
+			min-height: auto;
+			padding-top: 150px;
+			margin-top: 85px;
+		}
+
+		.right-sucess p{
+			padding-left: 25px;
+			padding-right: 25px;
+		}
+
+		.process-sucess{
+			border-radius: 0;
+		}
+
+		.file-text {
+			display: block;
+			padding-left: 25px;
+			margin-top: 2px;
+		}
+
+		.file-text h2 span {
+			font-size: 25px;
+			line-height: 30px;
+		}
+
+		.file-text h2 {
+			font-size: 25px;
+			line-height: 30px;
+		}
+
+		.file-text p{
+			width: 90%;
+		}
+
+		.nav-list .dropdown .nav-dropdown {
+			border-radius: 0;
+			width: 100%;
+			padding-bottom: 0;
+			padding-top: 0;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+		}
+
+		.nav-list .dropdown .nav-dropdown a p{
+			font-size: 14px;
+			text-align: center !important;
+		}
+
+		.nav-list .dropdown .nav-dropdown li{
+			padding-top: 12px;
+			padding-bottom: 12px;
+		}
+
 	} /* end mobile responsive media querie*/
 
