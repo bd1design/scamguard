@@ -48,6 +48,7 @@
 		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="true" aria-label="Toggle navigation">
 			<span class="navbar-toggler-icon menu-hamburger"></span>
 		  </button>
+		 
 		  <div class="collapse navbar-collapse" id="navbarResponsive">
 			<ul class="navbar-nav ml-auto nav-list">
 			  
@@ -60,10 +61,11 @@
 			  </li>
   
 			  <li class="dropdown">
-				  <a class="nav-link js-scroll-trigger" href="comman-scams.html">Comman Scams</a>
-				   <span class="dropdown-toggle" href="our-services.html" data-toggle="dropdown"> </span>
+				  <a class="nav-link" href="comman-scams.html">Comman Scams</a>
+				  
+				  <span class="dropdown-toggle" href="our-services.html" id="navbarDropdown" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> 	 </span>
 				 
-				   <ul class="dropdown-menu nav-dropdown" role="menu" style="display: none;">
+				   <ul class="dropdown-menu nav-dropdown" role="menu" aria-labelledby="navbarDropdown">
 					  <li><a href="forex-scams.html"><p>Forex Scams</p></a></li>
 					  <li><a href="cryptocurrency-scams.html"><p>Crypto & Bitcoin Scams</p></a></li>
 					  <li><a href="binnary-options-scams.html"><p>Binary Option Scams</p></a></li>
@@ -763,25 +765,6 @@
 		  });
 	</script>
 
-
-
-    <script>
-        /* Dropdown menu*/
-
-        $(document).ready(function(){
-            $(".dropdown").hover(            
-                function() {
-                    $('.dropdown-menu', this).not('.in .dropdown-menu').stop( true, true ).slideDown("fast");
-                    $(this).toggleClass('open');        
-                },
-                function() {
-                    $('.dropdown-menu', this).not('.in .dropdown-menu').stop( true, true ).slideUp("fast");
-                    $(this).toggleClass('open');       
-                }
-            );
-        });
-
-    </script>
 
     
      <!-- JS Script Button back to top -->
