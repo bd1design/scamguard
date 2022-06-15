@@ -136,24 +136,6 @@
 	vertical-align: 1px;
 	}
 
-	.nav-list .nav-item .gt-quote{
-	background-color: #4638b3;
-	/*background-image: -webkit-linear-gradient(0deg, #251c6e 0%, #362a91 52%, #4638b3 100%);*/
-	padding-top: 8px;
-	padding-bottom:8px;
-	font-size: 16px;
-	color: #ffffff;
-	border-radius:2px;
-	padding-left: 20px;padding-right: 20px;
-	margin-right: 25px;
-	}
-
-	.nav-list .nav-item .gt-quote:hover{
-	background-color: #4638b3;
-	color: #fff !important;
-	}
-
-
 
 	.main-navigation .nav-list .nav-link:hover{
 	cursor: pointer;
@@ -163,6 +145,7 @@
 	.nav-list .nav-item .btn-nav-book:hover{
 	color: #fafafa !important;
 	background-color: #F4B146;
+	cursor: pointer;
 	}
 
 	.nav-list .dropdown{
@@ -186,9 +169,10 @@
 	font-size: 13px;
 	text-align: center;
 	}
+	
 	.nav-list .dropdown a:hover{
 	text-decoration: none;
-	color: #069455;
+	
 	}
 
 	.nav-list .dropdown a .caret{
@@ -199,9 +183,11 @@
 
 	.nav-list .dropdown .dropdown-toggle {
 	position: absolute;
-	right: 8px;
-	bottom: 13px;
+	right:-1px;
+	bottom: 14px;
 	}
+
+	
 
 	.dropdown-toggle::after {
 	display: inline-block;
@@ -210,9 +196,16 @@
 	margin-left: .3em;
 	vertical-align: middle;
 	content: "";
-	border-top: .5em solid;
-	border-right: .5em solid transparent;
-	border-left: .5em solid transparent;
+	border-top: 10px solid;
+	border-right: 10px solid transparent ;
+	border-left: 10px solid transparent;
+
+
+	}
+
+	.nav-list .dropdown .dropdown-toggle:hover{
+		cursor: pointer;
+		color: #F4B146 !important;
 	}
 
 	.nav-list .dropdown .nav-dropdown{
@@ -1170,6 +1163,7 @@
 	padding-left:20px;
 	margin-top: 70px;
 	padding-right:0;
+	width: 100%;
 	}
 
 	.list-choose li{
@@ -3604,6 +3598,11 @@
 			
 		}
 
+		#our-services-cover {
+			
+			background-size: cover !important;
+		}
+
 		#text-content .txt-right h2 {
 			font-size: 34px;
 		}
@@ -3707,15 +3706,37 @@
 
 		.txt-services h2{
 			font-size: 35px;
-			text-align: center;
+			text-align: left;
+		}
+
+		.crypto-scam .txt-services {
+			padding-right: 30px;
+			padding-left: 20px;
+			margin-top: 20px;
+		}
+
+		.steps-box .small-text {
+			font-size: 16px;
+			padding-left: 60px;
+			padding-right: 60px;
 		}
 
 		.txt-services p{
-			font-size: 17px;
+			font-size: 18px;
 		}
 
 		.txt-services h6{
 			font-size: 17px;
+		}
+
+		.second-text p {
+			font-size: 18px;
+		}
+
+		.in-text {
+			margin-top: 85px;
+			padding-left: 100px;
+			padding-right: 100px;
 		}
 
 		.feedback .client-title{
@@ -3732,11 +3753,31 @@
 			
 		}
 
+		.trust-text p {
+			font-size: 17px;
+			margin-top: 40px;
+		}
+
+		.in-text p{
+			font-size: 18px;
+		}
+
+		.car-services .title-ser a {
+			font-size: 22px;
+		}
+
+		.card-impressions .carousel-item {
+			height: 815px;
+		}
+
+		.car-services{
+			height: 680px;
+		}
+
 		.card-impressions {
 			display: block;
-			background-color: rgba(2, 32, 68, 0.45);
 			border-radius: 6px;
-			max-width: 60%;
+			max-width: 90%;
 		}
 
 		.txt-choose h2 {
@@ -4481,7 +4522,7 @@
 			width: 100%;
 			padding-bottom: 0;
 			padding-top: 0;
-			display: block;
+			background-color: #fff;
 			margin-left: auto;
 			margin-right: auto;
 		}
@@ -4957,10 +4998,18 @@
 			max-width: 90%;
 			display: block;
 			float: left;
+			margin-bottom: 30px;
+			height: 430px;
+			margin-right: 0;
+
 		}
 
 		.card-impressions .carousel-item {
-			height: 700px;
+			height: 1480px;
+		}
+
+		.car-services .title-ser a {
+			font-size: 16px;
 		}
 
 		.inside-text {
@@ -5077,7 +5126,7 @@
 		}
 
 		.crypto-scam .txt-services {
-			padding-right: 20px;
+			padding-right: 30px;
 		}
 
 		.main-navigation .logo-header{
@@ -5388,8 +5437,8 @@
 			float: left;
 			width: 100%;
 			padding-top: 35px;
-			padding-bottom: 50px;
-			padding-left: 30px;
+			padding-bottom: 30px;
+			padding-left: 0;
 			position: relative;
 		}
 
@@ -5469,13 +5518,15 @@
 			width: 100%;
 			padding-bottom: 0;
 			padding-top: 0;
-			display: block;
+			
 			margin-left: auto;
 			margin-right: auto;
 		}
+		
 
+	
 		.nav-list .dropdown .nav-dropdown a p{
-			font-size: 14px;
+			font-size: 11px;
 			text-align: center !important;
 		}
 
@@ -5484,5 +5535,13 @@
 			padding-bottom: 12px;
 		}
 
+		.nav-list .dropdown .dropdown-toggle {
+			position: absolute;
+			right: 33px;
+			bottom: 12px;
+		}
+	
+
+		 
 	} /* end mobile responsive media querie*/
 
